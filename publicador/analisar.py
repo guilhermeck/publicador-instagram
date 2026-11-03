@@ -19,7 +19,9 @@ def tentar(*variantes):
     erros = []
     for metodo, caminho, params in variantes:
         try:
-            return chamar(metodo, caminho, params)
+            r = chamar(metodo, caminho, params)
+            r.pop("paging", None)  # links de paginação trazem o token
+            return r
         except MetaErro as e:
             erros.append(str(e))
     return {"erro": erros}
