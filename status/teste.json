@@ -1,0 +1,29 @@
+{
+  "testado_em": "2026-11-03T19:10:47+00:00",
+  "perfis": {
+    "gcharneski": {
+      "ok": true,
+      "username": "gcharneski",
+      "seguidores": 754
+    },
+    "grupoguilhermecharneski": {
+      "ok": true,
+      "username": "grupoguilhermecharneski",
+      "seguidores": 1710
+    },
+    "lestenewstb": {
+      "ok": true,
+      "username": "lestenewstb",
+      "seguidores": 29
+    },
+    "rotaaltaoficial": {
+      "ok": true,
+      "username": "rotaaltaoficial",
+      "seguidores": 75
+    },
+    "plastipelembalagenstb": {
+      "ok": false,
+      "erro": "HTTP 400: Unsupported get request. Object with ID '17841409681643186' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Graph API documentation at https://developers.facebook.com/docs/graph-api"
+    }
+  }
+}
