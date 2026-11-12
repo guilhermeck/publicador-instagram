@@ -35,7 +35,13 @@ def chamar(metodo, caminho, params=None):
     except urllib.error.HTTPError as e:
         corpo = e.read().decode(errors="replace")
         try:
-            msg = json.loads(corpo).get("error", {}).get("message", corpo)
+            err = json.loads(corpo).get("error", {})
+            msg = err.get("message", corpo)
+            extra = [err.get(k) for k in ("error_user_title", "error_user_msg") if err.get(k)]
+            if err.get("error_subcode"):
+                extra.append(f"subcode {err['error_subcode']}")
+            if extra:
+                msg += " | " + " | ".join(str(x) for x in extra)
         except ValueError:
             msg = corpo
         raise MetaErro(f"HTTP {e.code}: {msg}") from None

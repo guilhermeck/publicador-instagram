@@ -25,7 +25,7 @@ def criar(p, out):
     try:
         out["campanha_id"] = chamar("POST", f"{conta}/campaigns", campos(camp))["id"]
     except MetaErro as e:
-        if "is_adset_budget_sharing_enabled" not in str(e):
+        if "is_adset_budget_sharing_enabled" not in str(e) and "budget sharing" not in str(e).lower():
             raise
         camp["is_adset_budget_sharing_enabled"] = False
         out["campanha_id"] = chamar("POST", f"{conta}/campaigns", campos(camp))["id"]
@@ -70,6 +70,8 @@ def main():
     except MetaErro as e:
         out["ok"] = False
         out["erro"] = str(e)
+        out["etapa"] = ("campanha" if "campanha_id" not in out else "conjunto" if "conjunto_id" not in out
+                        else "criativo" if "criativo_id" not in out else "anuncio")
     (RAIZ / "status" / f"campanha-{p['id']}.json").write_text(json.dumps(out, ensure_ascii=False, indent=2) + "\n")
     print("ok" if out["ok"] else "erro")
 
