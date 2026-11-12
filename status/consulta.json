@@ -1,23 +1,64 @@
 {
-  "id": "cidades-alfa-2",
+  "id": "interesses-bmw",
   "chamadas": [
     {
-      "nome": "reserva",
+      "nome": "BMW",
       "caminho": "search",
       "params": {
-        "type": "adgeolocation",
-        "location_types": "[\"city\"]",
-        "q": "Reserva, Paraná",
-        "country_code": "BR",
-        "limit": "10"
+        "type": "adinterest",
+        "q": "BMW",
+        "locale": "pt_BR",
+        "limit": "6"
       }
     },
     {
-      "nome": "conjuntos",
-      "caminho": "act_2492793277580773/adsets",
+      "nome": "BMW 3 Series",
+      "caminho": "search",
       "params": {
-        "fields": "name,destination_type,optimization_goal,promoted_object,targeting{geo_locations,age_min,age_max}",
-        "limit": "20"
+        "type": "adinterest",
+        "q": "BMW 3 Series",
+        "locale": "pt_BR",
+        "limit": "6"
+      }
+    },
+    {
+      "nome": "Carros de luxo",
+      "caminho": "search",
+      "params": {
+        "type": "adinterest",
+        "q": "Carros de luxo",
+        "locale": "pt_BR",
+        "limit": "6"
+      }
+    },
+    {
+      "nome": "Carros esportivos",
+      "caminho": "search",
+      "params": {
+        "type": "adinterest",
+        "q": "Carros esportivos",
+        "locale": "pt_BR",
+        "limit": "6"
+      }
+    },
+    {
+      "nome": "Automóveis",
+      "caminho": "search",
+      "params": {
+        "type": "adinterest",
+        "q": "Automóveis",
+        "locale": "pt_BR",
+        "limit": "6"
+      }
+    },
+    {
+      "nome": "Carros usados",
+      "caminho": "search",
+      "params": {
+        "type": "adinterest",
+        "q": "Carros usados",
+        "locale": "pt_BR",
+        "limit": "6"
       }
     }
   ]
