@@ -33,11 +33,11 @@ def main():
     out["eu"] = tentar("GET", "me", {"fields": "id,name"})
     out["contas_anuncio"] = tentar("GET", "me/adaccounts", {
         "fields": "id,account_id,name,account_status,currency,timezone_name,disable_reason,"
-                  "business{id,name},funding_source_details,amount_spent,spend_cap",
+                  "funding_source_details,amount_spent,spend_cap,min_daily_budget",
         "limit": "50"})
     out["paginas"] = tentar("GET", "me/accounts", {
         "fields": "id,name,instagram_business_account{id,username},whatsapp_number,"
-                  "connected_instagram_account{id,username}", "limit": "50"})
+                  "has_whatsapp_number,has_whatsapp_business_number", "limit": "50"})
 
     midia = None
     if codigo:
