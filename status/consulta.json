@@ -1,102 +1,23 @@
 {
-  "id": "cidades-alfa",
+  "id": "cidades-alfa-2",
   "chamadas": [
     {
-      "nome": "Telêmaco Borba",
+      "nome": "reserva",
       "caminho": "search",
       "params": {
         "type": "adgeolocation",
         "location_types": "[\"city\"]",
-        "q": "Telêmaco Borba",
+        "q": "Reserva, Paraná",
         "country_code": "BR",
-        "limit": "5"
+        "limit": "10"
       }
     },
     {
-      "nome": "Imbaú",
-      "caminho": "search",
+      "nome": "conjuntos",
+      "caminho": "act_2492793277580773/adsets",
       "params": {
-        "type": "adgeolocation",
-        "location_types": "[\"city\"]",
-        "q": "Imbaú",
-        "country_code": "BR",
-        "limit": "5"
-      }
-    },
-    {
-      "nome": "Ortigueira",
-      "caminho": "search",
-      "params": {
-        "type": "adgeolocation",
-        "location_types": "[\"city\"]",
-        "q": "Ortigueira",
-        "country_code": "BR",
-        "limit": "5"
-      }
-    },
-    {
-      "nome": "Reserva",
-      "caminho": "search",
-      "params": {
-        "type": "adgeolocation",
-        "location_types": "[\"city\"]",
-        "q": "Reserva",
-        "country_code": "BR",
-        "limit": "5"
-      }
-    },
-    {
-      "nome": "Tibagi",
-      "caminho": "search",
-      "params": {
-        "type": "adgeolocation",
-        "location_types": "[\"city\"]",
-        "q": "Tibagi",
-        "country_code": "BR",
-        "limit": "5"
-      }
-    },
-    {
-      "nome": "Curiúva",
-      "caminho": "search",
-      "params": {
-        "type": "adgeolocation",
-        "location_types": "[\"city\"]",
-        "q": "Curiúva",
-        "country_code": "BR",
-        "limit": "5"
-      }
-    },
-    {
-      "nome": "Ventania",
-      "caminho": "search",
-      "params": {
-        "type": "adgeolocation",
-        "location_types": "[\"city\"]",
-        "q": "Ventania",
-        "country_code": "BR",
-        "limit": "5"
-      }
-    },
-    {
-      "nome": "pagina_alfa",
-      "caminho": "114024880297153",
-      "params": {
-        "fields": "id,name,has_whatsapp_number,whatsapp_number,instagram_business_account"
-      }
-    },
-    {
-      "nome": "ig_contas_da_conta_anuncio",
-      "caminho": "act_2492793277580773/instagram_accounts",
-      "params": {
-        "fields": "id,username"
-      }
-    },
-    {
-      "nome": "paginas_promoviveis",
-      "caminho": "act_2492793277580773/promote_pages",
-      "params": {
-        "fields": "id,name"
+        "fields": "name,destination_type,optimization_goal,promoted_object,targeting{geo_locations,age_min,age_max}",
+        "limit": "20"
       }
     }
   ]
