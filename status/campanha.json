@@ -1,0 +1,112 @@
+{
+  "id": "bmw320i-alfa-1",
+  "acao": "criar",
+  "conta": "act_2492793277580773",
+  "campanha": {
+    "name": "BMW 320i - Conversas WhatsApp",
+    "objective": "OUTCOME_ENGAGEMENT",
+    "special_ad_categories": [],
+    "buying_type": "AUCTION"
+  },
+  "conjunto": {
+    "name": "BMW 320i - Campos Gerais 25-54 interesse BMW",
+    "lifetime_budget": 6000,
+    "start_time": "2026-11-13T07:00:00-0300",
+    "end_time": "2026-11-20T07:00:00-0300",
+    "billing_event": "IMPRESSIONS",
+    "optimization_goal": "CONVERSATIONS",
+    "destination_type": "WHATSAPP",
+    "bid_strategy": "LOWEST_COST_WITHOUT_CAP",
+    "promoted_object": {
+      "page_id": "114024880297153",
+      "whatsapp_phone_number": "554288056270"
+    },
+    "targeting": {
+      "geo_locations": {
+        "cities": [
+          {
+            "key": "272231",
+            "radius": 17,
+            "distance_unit": "kilometer"
+          },
+          {
+            "key": "255118",
+            "radius": 17,
+            "distance_unit": "kilometer"
+          },
+          {
+            "key": "261983",
+            "radius": 17,
+            "distance_unit": "kilometer"
+          },
+          {
+            "key": "266434",
+            "radius": 17,
+            "distance_unit": "kilometer"
+          },
+          {
+            "key": "272400",
+            "radius": 17,
+            "distance_unit": "kilometer"
+          },
+          {
+            "key": "250463",
+            "radius": 17,
+            "distance_unit": "kilometer"
+          },
+          {
+            "key": "273866",
+            "radius": 17,
+            "distance_unit": "kilometer"
+          }
+        ],
+        "location_types": [
+          "home",
+          "recent"
+        ]
+      },
+      "age_min": 25,
+      "age_max": 54,
+      "flexible_spec": [
+        {
+          "interests": [
+            {
+              "id": "6003257785488",
+              "name": "BMW (veículos)"
+            },
+            {
+              "id": "6003219427158",
+              "name": "BMW 3 Series"
+            },
+            {
+              "id": "6002903289710",
+              "name": "BMW M"
+            },
+            {
+              "id": "6004048615096",
+              "name": "Veículo de luxo (veículos)"
+            }
+          ]
+        }
+      ],
+      "targeting_automation": {
+        "advantage_audience": 0
+      }
+    }
+  },
+  "criativo": {
+    "name": "BMW 320i - Reels (Instagram)",
+    "object_id": "114024880297153",
+    "instagram_user_id": "17841439724629419",
+    "source_instagram_media_id": "17915188155490283",
+    "call_to_action": {
+      "type": "WHATSAPP_MESSAGE",
+      "value": {
+        "app_destination": "WHATSAPP"
+      }
+    }
+  },
+  "anuncio": {
+    "name": "BMW 320i - Reels"
+  }
+}
