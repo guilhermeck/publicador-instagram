@@ -1,5 +1,5 @@
 {
-  "testado_em": "2026-11-12T19:15:43+00:00",
+  "testado_em": "2026-11-12T19:27:00+00:00",
   "perfis": {
     "gcharneski": {
       "ok": true,
@@ -29,6 +29,11 @@
       "ok": true,
       "username": "jcwprodutosautomotivos",
       "seguidores": 1454
+    },
+    "alfaveiculostb": {
+      "ok": true,
+      "username": "alfaveiculostb",
+      "seguidores": 8466
     }
   }
 }
