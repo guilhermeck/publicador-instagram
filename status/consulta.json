@@ -1,31 +1,102 @@
 {
-  "id": "campanhas-alfa-1",
+  "id": "cidades-alfa",
   "chamadas": [
     {
-      "nome": "campanhas",
-      "caminho": "act_2492793277580773/campaigns",
+      "nome": "Telêmaco Borba",
+      "caminho": "search",
       "params": {
-        "fields": "id,name,objective,status,effective_status,daily_budget,lifetime_budget,start_time,stop_time,created_time",
-        "limit": "100"
+        "type": "adgeolocation",
+        "location_types": "[\"city\"]",
+        "q": "Telêmaco Borba",
+        "country_code": "BR",
+        "limit": "5"
       }
     },
     {
-      "nome": "conjuntos_ativos",
-      "caminho": "act_2492793277580773/adsets",
+      "nome": "Imbaú",
+      "caminho": "search",
       "params": {
-        "fields": "id,name,campaign_id,effective_status,daily_budget,lifetime_budget,start_time,end_time,optimization_goal,destination_type",
-        "effective_status": "[\"ACTIVE\",\"PAUSED\",\"CAMPAIGN_PAUSED\",\"IN_PROCESS\",\"WITH_ISSUES\"]",
-        "limit": "100"
+        "type": "adgeolocation",
+        "location_types": "[\"city\"]",
+        "q": "Imbaú",
+        "country_code": "BR",
+        "limit": "5"
       }
     },
     {
-      "nome": "gasto_7d_por_campanha",
-      "caminho": "act_2492793277580773/insights",
+      "nome": "Ortigueira",
+      "caminho": "search",
       "params": {
-        "level": "campaign",
-        "date_preset": "last_7d",
-        "fields": "campaign_id,campaign_name,spend,impressions,reach,actions",
-        "limit": "100"
+        "type": "adgeolocation",
+        "location_types": "[\"city\"]",
+        "q": "Ortigueira",
+        "country_code": "BR",
+        "limit": "5"
+      }
+    },
+    {
+      "nome": "Reserva",
+      "caminho": "search",
+      "params": {
+        "type": "adgeolocation",
+        "location_types": "[\"city\"]",
+        "q": "Reserva",
+        "country_code": "BR",
+        "limit": "5"
+      }
+    },
+    {
+      "nome": "Tibagi",
+      "caminho": "search",
+      "params": {
+        "type": "adgeolocation",
+        "location_types": "[\"city\"]",
+        "q": "Tibagi",
+        "country_code": "BR",
+        "limit": "5"
+      }
+    },
+    {
+      "nome": "Curiúva",
+      "caminho": "search",
+      "params": {
+        "type": "adgeolocation",
+        "location_types": "[\"city\"]",
+        "q": "Curiúva",
+        "country_code": "BR",
+        "limit": "5"
+      }
+    },
+    {
+      "nome": "Ventania",
+      "caminho": "search",
+      "params": {
+        "type": "adgeolocation",
+        "location_types": "[\"city\"]",
+        "q": "Ventania",
+        "country_code": "BR",
+        "limit": "5"
+      }
+    },
+    {
+      "nome": "pagina_alfa",
+      "caminho": "114024880297153",
+      "params": {
+        "fields": "id,name,has_whatsapp_number,whatsapp_number,instagram_business_account"
+      }
+    },
+    {
+      "nome": "ig_contas_da_conta_anuncio",
+      "caminho": "act_2492793277580773/instagram_accounts",
+      "params": {
+        "fields": "id,username"
+      }
+    },
+    {
+      "nome": "paginas_promoviveis",
+      "caminho": "act_2492793277580773/promote_pages",
+      "params": {
+        "fields": "id,name"
       }
     }
   ]
