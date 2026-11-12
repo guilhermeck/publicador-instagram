@@ -1,5 +1,5 @@
 {
-  "testado_em": "2026-11-12T19:33:09+00:00",
+  "testado_em": "2026-11-12T19:39:38+00:00",
   "perfis": {
     "gcharneski": {
       "ok": true,
@@ -22,8 +22,9 @@
       "seguidores": 76
     },
     "plastipelembalagenstb": {
-      "ok": false,
-      "erro": "HTTP 400: Unsupported get request. Object with ID '17841409681643186' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Graph API documentation at https://developers.facebook.com/docs/graph-api"
+      "ok": true,
+      "username": "plastipelembalagenstb",
+      "seguidores": 6226
     },
     "jcwprodutosautomotivos": {
       "ok": true,
