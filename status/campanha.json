@@ -1,23 +1,9 @@
 {
-  "id": "bmw320i-alfa-4",
-  "acao": "completar",
-  "conta": "act_2492793277580773",
-  "campanha_id": "120250924584380207",
-  "conjunto_id": "120250924584910207",
-  "criativo": {
-    "name": "BMW 320i - Reels (Instagram)",
-    "object_id": "114024880297153",
-    "instagram_user_id": "17841439724629419",
-    "source_instagram_media_id": "17915188155490283",
-    "call_to_action": {
-      "type": "WHATSAPP_MESSAGE",
-      "value": {
-        "app_destination": "WHATSAPP",
-        "link": "https://api.whatsapp.com/send"
-      }
-    }
-  },
-  "anuncio": {
-    "name": "BMW 320i - Reels"
-  }
+  "id": "bmw320i-alfa-ativar",
+  "acao": "ativar",
+  "ids": [
+    "120250924700090207",
+    "120250924584910207",
+    "120250924584380207"
+  ]
 }
