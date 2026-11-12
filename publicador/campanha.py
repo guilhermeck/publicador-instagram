@@ -69,6 +69,12 @@ def completar(p, out):
     }
 
 
+def atualizar(p, out):
+    """Atualiza campos de um objeto (ex.: start_time de um conjunto) e confere o resultado."""
+    chamar("POST", p["objeto"], campos(p["campos"]))
+    out["conferencia"] = chamar("GET", p["objeto"], {"fields": p.get("conferir", "name,status,effective_status")})
+
+
 def ativar(p, out):
     out["ativados"] = {}
     for i in p["ids"]:
@@ -80,7 +86,7 @@ def main():
     p = json.loads((RAIZ / "status" / "campanha.json").read_text())
     out = {"id": p["id"], "acao": p["acao"]}
     try:
-        {"criar": criar, "completar": completar, "ativar": ativar}[p["acao"]](p, out)
+        {"criar": criar, "completar": completar, "atualizar": atualizar, "ativar": ativar}[p["acao"]](p, out)
         out["ok"] = True
     except MetaErro as e:
         out["ok"] = False

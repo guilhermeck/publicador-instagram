@@ -1,9 +1,9 @@
 {
-  "id": "bmw320i-alfa-ativar",
-  "acao": "ativar",
-  "ids": [
-    "120250924700090207",
-    "120250924584910207",
-    "120250924584380207"
-  ]
+  "id": "bmw320i-alfa-inicio-agora",
+  "acao": "atualizar",
+  "objeto": "120250924584910207",
+  "campos": {
+    "start_time": "2026-11-12T18:11:00-0300"
+  },
+  "conferir": "name,status,effective_status,start_time,end_time,lifetime_budget"
 }
