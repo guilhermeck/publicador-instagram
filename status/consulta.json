@@ -1,0 +1,32 @@
+{
+  "id": "campanhas-alfa-1",
+  "chamadas": [
+    {
+      "nome": "campanhas",
+      "caminho": "act_2492793277580773/campaigns",
+      "params": {
+        "fields": "id,name,objective,status,effective_status,daily_budget,lifetime_budget,start_time,stop_time,created_time",
+        "limit": "100"
+      }
+    },
+    {
+      "nome": "conjuntos_ativos",
+      "caminho": "act_2492793277580773/adsets",
+      "params": {
+        "fields": "id,name,campaign_id,effective_status,daily_budget,lifetime_budget,start_time,end_time,optimization_goal,destination_type",
+        "effective_status": "[\"ACTIVE\",\"PAUSED\",\"CAMPAIGN_PAUSED\",\"IN_PROCESS\",\"WITH_ISSUES\"]",
+        "limit": "100"
+      }
+    },
+    {
+      "nome": "gasto_7d_por_campanha",
+      "caminho": "act_2492793277580773/insights",
+      "params": {
+        "level": "campaign",
+        "date_preset": "last_7d",
+        "fields": "campaign_id,campaign_name,spend,impressions,reach,actions",
+        "limit": "100"
+      }
+    }
+  ]
+}
