@@ -54,6 +54,21 @@ def criar(p, out):
     }
 
 
+def completar(p, out):
+    """Cria criativo e anúncio (pausado) num conjunto já existente."""
+    conta = p["conta"]
+    out["conjunto_id"] = p["conjunto_id"]
+    out["campanha_id"] = p["campanha_id"]
+    out["criativo_id"] = chamar("POST", f"{conta}/adcreatives", campos(p["criativo"]))["id"]
+    ad = dict(p["anuncio"], adset_id=out["conjunto_id"], creative={"creative_id": out["criativo_id"]}, status="PAUSED")
+    out["anuncio_id"] = chamar("POST", f"{conta}/ads", campos(ad))["id"]
+    out["conferencia"] = {
+        "conjunto": chamar("GET", out["conjunto_id"], {"fields": "name,status,effective_status,lifetime_budget,start_time,"
+                                                                  "end_time,optimization_goal,destination_type,promoted_object,targeting"}),
+        "anuncio": chamar("GET", out["anuncio_id"], {"fields": "name,status,effective_status,preview_shareable_link"}),
+    }
+
+
 def ativar(p, out):
     out["ativados"] = {}
     for i in p["ids"]:
@@ -65,7 +80,7 @@ def main():
     p = json.loads((RAIZ / "status" / "campanha.json").read_text())
     out = {"id": p["id"], "acao": p["acao"]}
     try:
-        {"criar": criar, "ativar": ativar}[p["acao"]](p, out)
+        {"criar": criar, "completar": completar, "ativar": ativar}[p["acao"]](p, out)
         out["ok"] = True
     except MetaErro as e:
         out["ok"] = False
