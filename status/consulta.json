@@ -1,64 +1,50 @@
 {
-  "id": "interesses-bmw",
+  "id": "alcance-bmw",
   "chamadas": [
     {
-      "nome": "BMW",
+      "nome": "Mercedes-Benz",
       "caminho": "search",
       "params": {
         "type": "adinterest",
-        "q": "BMW",
+        "q": "Mercedes-Benz",
         "locale": "pt_BR",
-        "limit": "6"
+        "limit": "3"
       }
     },
     {
-      "nome": "BMW 3 Series",
+      "nome": "Audi",
       "caminho": "search",
       "params": {
         "type": "adinterest",
-        "q": "BMW 3 Series",
+        "q": "Audi",
         "locale": "pt_BR",
-        "limit": "6"
+        "limit": "3"
       }
     },
     {
-      "nome": "Carros de luxo",
+      "nome": "Veículo de luxo",
       "caminho": "search",
       "params": {
         "type": "adinterest",
-        "q": "Carros de luxo",
+        "q": "Veículo de luxo",
         "locale": "pt_BR",
-        "limit": "6"
+        "limit": "3"
       }
     },
     {
-      "nome": "Carros esportivos",
-      "caminho": "search",
+      "nome": "alcance_so_bmw",
+      "caminho": "act_2492793277580773/reachestimate",
       "params": {
-        "type": "adinterest",
-        "q": "Carros esportivos",
-        "locale": "pt_BR",
-        "limit": "6"
+        "targeting_spec": "{\"geo_locations\": {\"cities\": [{\"key\": \"272231\", \"radius\": 17, \"distance_unit\": \"kilometer\"}, {\"key\": \"255118\", \"radius\": 17, \"distance_unit\": \"kilometer\"}, {\"key\": \"261983\", \"radius\": 17, \"distance_unit\": \"kilometer\"}, {\"key\": \"266434\", \"radius\": 17, \"distance_unit\": \"kilometer\"}, {\"key\": \"272400\", \"radius\": 17, \"distance_unit\": \"kilometer\"}, {\"key\": \"250463\", \"radius\": 17, \"distance_unit\": \"kilometer\"}, {\"key\": \"273866\", \"radius\": 17, \"distance_unit\": \"kilometer\"}], \"location_types\": [\"home\", \"recent\"]}, \"age_min\": 25, \"age_max\": 54, \"flexible_spec\": [{\"interests\": [{\"id\": \"6003257785488\", \"name\": \"BMW (ve\\u00edculos)\"}, {\"id\": \"6003219427158\", \"name\": \"BMW 3 Series\"}, {\"id\": \"6002903289710\", \"name\": \"BMW M\"}]}]}",
+        "optimization_goal": "CONVERSATIONS"
       }
     },
     {
-      "nome": "Automóveis",
-      "caminho": "search",
+      "nome": "alcance_sem_interesse",
+      "caminho": "act_2492793277580773/reachestimate",
       "params": {
-        "type": "adinterest",
-        "q": "Automóveis",
-        "locale": "pt_BR",
-        "limit": "6"
-      }
-    },
-    {
-      "nome": "Carros usados",
-      "caminho": "search",
-      "params": {
-        "type": "adinterest",
-        "q": "Carros usados",
-        "locale": "pt_BR",
-        "limit": "6"
+        "targeting_spec": "{\"geo_locations\": {\"cities\": [{\"key\": \"272231\", \"radius\": 17, \"distance_unit\": \"kilometer\"}, {\"key\": \"255118\", \"radius\": 17, \"distance_unit\": \"kilometer\"}, {\"key\": \"261983\", \"radius\": 17, \"distance_unit\": \"kilometer\"}, {\"key\": \"266434\", \"radius\": 17, \"distance_unit\": \"kilometer\"}, {\"key\": \"272400\", \"radius\": 17, \"distance_unit\": \"kilometer\"}, {\"key\": \"250463\", \"radius\": 17, \"distance_unit\": \"kilometer\"}, {\"key\": \"273866\", \"radius\": 17, \"distance_unit\": \"kilometer\"}], \"location_types\": [\"home\", \"recent\"]}, \"age_min\": 25, \"age_max\": 54}",
+        "optimization_goal": "CONVERSATIONS"
       }
     }
   ]
