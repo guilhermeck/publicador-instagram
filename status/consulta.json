@@ -1,50 +1,58 @@
 {
-  "id": "alcance-bmw",
+  "id": "bmw-res-11130845",
   "chamadas": [
     {
-      "nome": "Mercedes-Benz",
-      "caminho": "search",
+      "nome": "anuncio",
+      "caminho": "120250924700090207",
       "params": {
-        "type": "adinterest",
-        "q": "Mercedes-Benz",
-        "locale": "pt_BR",
-        "limit": "3"
+        "fields": "name,status,effective_status,ad_review_feedback,issues_info"
       }
     },
     {
-      "nome": "Audi",
-      "caminho": "search",
+      "nome": "conjunto",
+      "caminho": "120250924584910207",
       "params": {
-        "type": "adinterest",
-        "q": "Audi",
-        "locale": "pt_BR",
-        "limit": "3"
+        "fields": "name,status,effective_status,start_time,end_time,lifetime_budget,budget_remaining,issues_info"
       }
     },
     {
-      "nome": "Veículo de luxo",
-      "caminho": "search",
+      "nome": "campanha",
+      "caminho": "120250924584380207",
       "params": {
-        "type": "adinterest",
-        "q": "Veículo de luxo",
-        "locale": "pt_BR",
-        "limit": "3"
+        "fields": "name,status,effective_status"
       }
     },
     {
-      "nome": "alcance_so_bmw",
-      "caminho": "act_2492793277580773/reachestimate",
+      "nome": "total",
+      "caminho": "120250924584380207/insights",
       "params": {
-        "targeting_spec": "{\"geo_locations\": {\"cities\": [{\"key\": \"272231\", \"radius\": 17, \"distance_unit\": \"kilometer\"}, {\"key\": \"255118\", \"radius\": 17, \"distance_unit\": \"kilometer\"}, {\"key\": \"261983\", \"radius\": 17, \"distance_unit\": \"kilometer\"}, {\"key\": \"266434\", \"radius\": 17, \"distance_unit\": \"kilometer\"}, {\"key\": \"272400\", \"radius\": 17, \"distance_unit\": \"kilometer\"}, {\"key\": \"250463\", \"radius\": 17, \"distance_unit\": \"kilometer\"}, {\"key\": \"273866\", \"radius\": 17, \"distance_unit\": \"kilometer\"}], \"location_types\": [\"home\", \"recent\"]}, \"age_min\": 25, \"age_max\": 54, \"flexible_spec\": [{\"interests\": [{\"id\": \"6003257785488\", \"name\": \"BMW (ve\\u00edculos)\"}, {\"id\": \"6003219427158\", \"name\": \"BMW 3 Series\"}, {\"id\": \"6002903289710\", \"name\": \"BMW M\"}]}]}",
-        "optimization_goal": "CONVERSATIONS"
+        "date_preset": "maximum",
+        "fields": "spend,impressions,reach,frequency,clicks,cpm,actions,cost_per_action_type,video_play_actions"
       }
     },
     {
-      "nome": "alcance_sem_interesse",
-      "caminho": "act_2492793277580773/reachestimate",
+      "nome": "por_dia",
+      "caminho": "120250924584380207/insights",
       "params": {
-        "targeting_spec": "{\"geo_locations\": {\"cities\": [{\"key\": \"272231\", \"radius\": 17, \"distance_unit\": \"kilometer\"}, {\"key\": \"255118\", \"radius\": 17, \"distance_unit\": \"kilometer\"}, {\"key\": \"261983\", \"radius\": 17, \"distance_unit\": \"kilometer\"}, {\"key\": \"266434\", \"radius\": 17, \"distance_unit\": \"kilometer\"}, {\"key\": \"272400\", \"radius\": 17, \"distance_unit\": \"kilometer\"}, {\"key\": \"250463\", \"radius\": 17, \"distance_unit\": \"kilometer\"}, {\"key\": \"273866\", \"radius\": 17, \"distance_unit\": \"kilometer\"}], \"location_types\": [\"home\", \"recent\"]}, \"age_min\": 25, \"age_max\": 54}",
-        "optimization_goal": "CONVERSATIONS"
+        "date_preset": "maximum",
+        "time_increment": "1",
+        "fields": "date_start,spend,reach,impressions,actions"
+      }
+    },
+    {
+      "nome": "por_idade",
+      "caminho": "120250924584380207/insights",
+      "params": {
+        "date_preset": "maximum",
+        "breakdowns": "age",
+        "fields": "spend,reach,actions"
+      }
+    },
+    {
+      "nome": "conta",
+      "caminho": "act_2492793277580773",
+      "params": {
+        "fields": "account_status,amount_spent,spend_cap,balance,funding_source_details{display_string}"
       }
     }
   ]
