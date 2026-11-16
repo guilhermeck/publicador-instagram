@@ -1,0 +1,38 @@
+name: Baixar imagens
+
+on:
+  push:
+    branches: [main]
+    paths: ["status/baixar.json"]
+
+permissions:
+  contents: write
+
+jobs:
+  baixar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - name: Baixar
+        run: |
+          python3 - <<'PY'
+          import json, os, urllib.request
+          p = json.load(open("status/baixar.json"))
+          os.makedirs(p["destino"], exist_ok=True)
+          for nome, url in p["arquivos"].items():
+              host = url.split("/")[2]
+              assert host.endswith((".fbcdn.net", ".cdninstagram.com")), host
+              req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
+              with urllib.request.urlopen(req, timeout=60) as r, open(os.path.join(p["destino"], nome), "wb") as f:
+                  f.write(r.read())
+              print("ok", nome)
+          PY
+      - name: Salvar
+        run: |
+          git config user.name "robo-publicador"
+          git config user.email "robo-publicador@users.noreply.github.com"
+          git add -A marcas
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m "Imagens baixadas"
+          for i in 1 2 3; do git pull --rebase && git push && break; sleep 5; done
