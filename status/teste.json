@@ -1,10 +1,10 @@
 {
-  "testado_em": "2026-11-12T20:32:16+00:00",
+  "testado_em": "2026-11-16T02:21:05+00:00",
   "perfis": {
     "gcharneski": {
       "ok": true,
       "username": "gcharneski",
-      "seguidores": 781
+      "seguidores": 784
     },
     "grupoguilhermecharneski": {
       "ok": true,
@@ -14,7 +14,7 @@
     "lestenewstb": {
       "ok": true,
       "username": "lestenewstb",
-      "seguidores": 31
+      "seguidores": 32
     },
     "rotaaltaoficial": {
       "ok": true,
@@ -24,17 +24,22 @@
     "plastipelembalagenstb": {
       "ok": true,
       "username": "plastipelembalagenstb",
-      "seguidores": 6226
+      "seguidores": 6229
     },
     "jcwprodutosautomotivos": {
       "ok": true,
       "username": "jcwprodutosautomotivos",
-      "seguidores": 1454
+      "seguidores": 1453
     },
     "alfaveiculostb": {
       "ok": true,
       "username": "alfaveiculostb",
-      "seguidores": 8467
+      "seguidores": 8518
+    },
+    "borrachariadenck": {
+      "ok": true,
+      "username": "borrachariadenck",
+      "seguidores": 0
     }
   }
 }
