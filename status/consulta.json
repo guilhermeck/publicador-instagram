@@ -1,69 +1,47 @@
 {
-  "id": "bmw-1116143900",
+  "id": "diag-bmw-144033",
   "chamadas": [
     {
-      "nome": "anuncio",
-      "caminho": "120250924700090207",
+      "nome": "estimativa",
+      "caminho": "120250924584910207/delivery_estimate",
       "params": {
-        "fields": "name,status,effective_status,issues_info"
+        "optimization_goal": "CONVERSATIONS"
       }
     },
     {
-      "nome": "conjunto",
+      "nome": "conj",
       "caminho": "120250924584910207",
       "params": {
-        "fields": "effective_status,start_time,end_time,lifetime_budget,budget_remaining,issues_info"
+        "fields": "effective_status,configured_status,learning_stage_info,recommendations,promoted_object,destination_type,optimization_goal,billing_event,bid_strategy,targeting,attribution_spec,is_dynamic_creative,pacing_type"
       }
     },
     {
-      "nome": "total",
-      "caminho": "120250924584380207/insights",
+      "nome": "camp",
+      "caminho": "120250924584380207",
       "params": {
-        "date_preset": "maximum",
-        "fields": "spend,impressions,reach,frequency,clicks,cpm,actions,cost_per_action_type"
+        "fields": "effective_status,configured_status,recommendations,issues_info,special_ad_categories,objective,buying_type,spend_cap"
       }
     },
     {
-      "nome": "por_dia",
-      "caminho": "120250924584380207/insights",
+      "nome": "ad",
+      "caminho": "120250924700090207",
       "params": {
-        "date_preset": "maximum",
-        "time_increment": "1",
-        "fields": "date_start,spend,reach,impressions,actions"
+        "fields": "effective_status,configured_status,ad_review_feedback,recommendations,issues_info,creative{id,status,effective_instagram_media_id,instagram_user_id,object_type,call_to_action_type,object_story_spec,effective_object_story_id}"
       }
     },
     {
-      "nome": "por_cidade",
-      "caminho": "120250924584380207/insights",
+      "nome": "pagina_wa",
+      "caminho": "114024880297153",
       "params": {
-        "date_preset": "maximum",
-        "breakdowns": "region",
-        "fields": "spend,reach"
+        "fields": "name,whatsapp_number,has_whatsapp_number,has_whatsapp_business_number,is_published"
       }
     },
     {
-      "nome": "por_idade",
-      "caminho": "120250924584380207/insights",
+      "nome": "ad_insights_hoje",
+      "caminho": "120250924700090207/insights",
       "params": {
-        "date_preset": "maximum",
-        "breakdowns": "age,gender",
-        "fields": "spend,reach,actions"
-      }
-    },
-    {
-      "nome": "conta",
-      "caminho": "act_2492793277580773",
-      "params": {
-        "fields": "account_status,amount_spent,spend_cap,balance"
-      }
-    },
-    {
-      "nome": "conta_7d",
-      "caminho": "act_2492793277580773/insights",
-      "params": {
-        "date_preset": "last_7d",
-        "time_increment": "1",
-        "fields": "date_start,spend"
+        "date_preset": "today",
+        "fields": "impressions,spend"
       }
     }
   ]
