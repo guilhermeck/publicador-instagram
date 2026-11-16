@@ -1,12 +1,19 @@
 {
-  "id": "mecanica-000215",
+  "id": "mec-midia-000708",
   "chamadas": [
     {
-      "nome": "paginas",
-      "caminho": "me/accounts",
+      "nome": "capa",
+      "caminho": "808615922330264",
       "params": {
-        "fields": "id,name,instagram_business_account{id,username,followers_count}",
-        "limit": "50"
+        "fields": "cover{source},picture.width(800){url}"
+      }
+    },
+    {
+      "nome": "midias",
+      "caminho": "17841477275686275/media",
+      "params": {
+        "fields": "id,media_type,media_url,thumbnail_url,timestamp",
+        "limit": "6"
       }
     }
   ]
