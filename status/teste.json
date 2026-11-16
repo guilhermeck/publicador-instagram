@@ -1,5 +1,5 @@
 {
-  "testado_em": "2026-11-16T02:21:05+00:00",
+  "testado_em": "2026-11-16T03:03:08+00:00",
   "perfis": {
     "gcharneski": {
       "ok": true,
@@ -40,6 +40,11 @@
       "ok": true,
       "username": "borrachariadenck",
       "seguidores": 0
+    },
+    "mecanicadenck": {
+      "ok": true,
+      "username": "mecanicadenck",
+      "seguidores": 22
     }
   }
 }
