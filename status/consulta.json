@@ -1,27 +1,11 @@
 {
-  "id": "ig-borracharia-231940",
+  "id": "mecanica-000215",
   "chamadas": [
     {
-      "nome": "owned_ig",
-      "caminho": "1127439313221080/owned_instagram_accounts",
+      "nome": "paginas",
+      "caminho": "me/accounts",
       "params": {
-        "fields": "id,username",
-        "limit": "50"
-      }
-    },
-    {
-      "nome": "ig_biz",
-      "caminho": "1127439313221080/instagram_business_accounts",
-      "params": {
-        "fields": "id,username",
-        "limit": "50"
-      }
-    },
-    {
-      "nome": "client_ig",
-      "caminho": "1127439313221080/client_instagram_accounts",
-      "params": {
-        "fields": "id,username",
+        "fields": "id,name,instagram_business_account{id,username,followers_count}",
         "limit": "50"
       }
     }
