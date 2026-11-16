@@ -1,19 +1,69 @@
 {
-  "id": "mec-midia-000708",
+  "id": "bmw-1116143900",
   "chamadas": [
     {
-      "nome": "capa",
-      "caminho": "808615922330264",
+      "nome": "anuncio",
+      "caminho": "120250924700090207",
       "params": {
-        "fields": "cover{source},picture.width(800){url}"
+        "fields": "name,status,effective_status,issues_info"
       }
     },
     {
-      "nome": "midias",
-      "caminho": "17841477275686275/media",
+      "nome": "conjunto",
+      "caminho": "120250924584910207",
       "params": {
-        "fields": "id,media_type,media_url,thumbnail_url,timestamp",
-        "limit": "6"
+        "fields": "effective_status,start_time,end_time,lifetime_budget,budget_remaining,issues_info"
+      }
+    },
+    {
+      "nome": "total",
+      "caminho": "120250924584380207/insights",
+      "params": {
+        "date_preset": "maximum",
+        "fields": "spend,impressions,reach,frequency,clicks,cpm,actions,cost_per_action_type"
+      }
+    },
+    {
+      "nome": "por_dia",
+      "caminho": "120250924584380207/insights",
+      "params": {
+        "date_preset": "maximum",
+        "time_increment": "1",
+        "fields": "date_start,spend,reach,impressions,actions"
+      }
+    },
+    {
+      "nome": "por_cidade",
+      "caminho": "120250924584380207/insights",
+      "params": {
+        "date_preset": "maximum",
+        "breakdowns": "region",
+        "fields": "spend,reach"
+      }
+    },
+    {
+      "nome": "por_idade",
+      "caminho": "120250924584380207/insights",
+      "params": {
+        "date_preset": "maximum",
+        "breakdowns": "age,gender",
+        "fields": "spend,reach,actions"
+      }
+    },
+    {
+      "nome": "conta",
+      "caminho": "act_2492793277580773",
+      "params": {
+        "fields": "account_status,amount_spent,spend_cap,balance"
+      }
+    },
+    {
+      "nome": "conta_7d",
+      "caminho": "act_2492793277580773/insights",
+      "params": {
+        "date_preset": "last_7d",
+        "time_increment": "1",
+        "fields": "date_start,spend"
       }
     }
   ]
