@@ -1,58 +1,28 @@
 {
-  "id": "bmw-res-11130845",
+  "id": "ig-borracharia-231940",
   "chamadas": [
     {
-      "nome": "anuncio",
-      "caminho": "120250924700090207",
+      "nome": "owned_ig",
+      "caminho": "1127439313221080/owned_instagram_accounts",
       "params": {
-        "fields": "name,status,effective_status,ad_review_feedback,issues_info"
+        "fields": "id,username",
+        "limit": "50"
       }
     },
     {
-      "nome": "conjunto",
-      "caminho": "120250924584910207",
+      "nome": "ig_biz",
+      "caminho": "1127439313221080/instagram_business_accounts",
       "params": {
-        "fields": "name,status,effective_status,start_time,end_time,lifetime_budget,budget_remaining,issues_info"
+        "fields": "id,username",
+        "limit": "50"
       }
     },
     {
-      "nome": "campanha",
-      "caminho": "120250924584380207",
+      "nome": "client_ig",
+      "caminho": "1127439313221080/client_instagram_accounts",
       "params": {
-        "fields": "name,status,effective_status"
-      }
-    },
-    {
-      "nome": "total",
-      "caminho": "120250924584380207/insights",
-      "params": {
-        "date_preset": "maximum",
-        "fields": "spend,impressions,reach,frequency,clicks,cpm,actions,cost_per_action_type,video_play_actions"
-      }
-    },
-    {
-      "nome": "por_dia",
-      "caminho": "120250924584380207/insights",
-      "params": {
-        "date_preset": "maximum",
-        "time_increment": "1",
-        "fields": "date_start,spend,reach,impressions,actions"
-      }
-    },
-    {
-      "nome": "por_idade",
-      "caminho": "120250924584380207/insights",
-      "params": {
-        "date_preset": "maximum",
-        "breakdowns": "age",
-        "fields": "spend,reach,actions"
-      }
-    },
-    {
-      "nome": "conta",
-      "caminho": "act_2492793277580773",
-      "params": {
-        "fields": "account_status,amount_spent,spend_cap,balance,funding_source_details{display_string}"
+        "fields": "id,username",
+        "limit": "50"
       }
     }
   ]
