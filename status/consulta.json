@@ -1,19 +1,12 @@
 {
-  "id": "bmw-9h-090052",
+  "id": "alfa-media-133606",
   "chamadas": [
     {
-      "nome": "total",
-      "caminho": "120250924584910207/insights",
+      "nome": "m",
+      "caminho": "17841439724629419/media",
       "params": {
-        "date_preset": "maximum",
-        "fields": "spend,impressions,reach,clicks,actions"
-      }
-    },
-    {
-      "nome": "conj",
-      "caminho": "120250924584910207",
-      "params": {
-        "fields": "effective_status,budget_remaining"
+        "fields": "id,media_type,media_product_type,timestamp,permalink,caption",
+        "limit": "6"
       }
     }
   ]
