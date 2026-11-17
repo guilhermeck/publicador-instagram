@@ -1,49 +1,19 @@
 {
-  "id": "alfa-resumo-084554",
+  "id": "bmw-9h-090052",
   "chamadas": [
     {
-      "nome": "camps",
-      "caminho": "act_2492793277580773/campaigns",
+      "nome": "total",
+      "caminho": "120250924584910207/insights",
       "params": {
-        "fields": "id,name,objective,effective_status,daily_budget,lifetime_budget,start_time,stop_time,created_time",
-        "limit": "50"
+        "date_preset": "maximum",
+        "fields": "spend,impressions,reach,clicks,actions"
       }
     },
     {
-      "nome": "ins_7d",
-      "caminho": "act_2492793277580773/insights",
+      "nome": "conj",
+      "caminho": "120250924584910207",
       "params": {
-        "level": "campaign",
-        "date_preset": "last_7d",
-        "fields": "campaign_id,campaign_name,objective,spend,impressions,reach,frequency,clicks,ctr,cpm,cpc,actions,cost_per_action_type",
-        "limit": "50"
-      }
-    },
-    {
-      "nome": "ins_30d",
-      "caminho": "act_2492793277580773/insights",
-      "params": {
-        "level": "campaign",
-        "date_preset": "last_30d",
-        "fields": "campaign_id,campaign_name,objective,spend,impressions,reach,frequency,clicks,ctr,cpm,cpc,actions,cost_per_action_type",
-        "limit": "50"
-      }
-    },
-    {
-      "nome": "ins_hoje",
-      "caminho": "act_2492793277580773/insights",
-      "params": {
-        "level": "campaign",
-        "date_preset": "today",
-        "fields": "campaign_name,spend,impressions",
-        "limit": "50"
-      }
-    },
-    {
-      "nome": "conta",
-      "caminho": "act_2492793277580773",
-      "params": {
-        "fields": "name,amount_spent,spend_cap,balance,currency,account_status"
+        "fields": "effective_status,budget_remaining"
       }
     }
   ]
