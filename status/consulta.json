@@ -1,40 +1,11 @@
 {
-  "id": "bmw-pos-211017",
+  "id": "alfa-bio-211033",
   "chamadas": [
     {
-      "nome": "conj",
-      "caminho": "120250924584910207",
+      "nome": "ig",
+      "caminho": "17841439724629419",
       "params": {
-        "fields": "effective_status,issues_info,budget_remaining"
-      }
-    },
-    {
-      "nome": "ad",
-      "caminho": "120250924700090207",
-      "params": {
-        "fields": "effective_status,issues_info,ad_review_feedback,delivery_info"
-      }
-    },
-    {
-      "nome": "est",
-      "caminho": "120250924584910207/delivery_estimate",
-      "params": {
-        "optimization_goal": "CONVERSATIONS"
-      }
-    },
-    {
-      "nome": "ins",
-      "caminho": "120250924584910207/insights",
-      "params": {
-        "date_preset": "maximum",
-        "fields": "impressions,reach,spend"
-      }
-    },
-    {
-      "nome": "wa",
-      "caminho": "114024880297153",
-      "params": {
-        "fields": "whatsapp_number"
+        "fields": "username,biography,website"
       }
     }
   ]
