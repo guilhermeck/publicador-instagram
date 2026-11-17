@@ -1,47 +1,40 @@
 {
-  "id": "diag-bmw-144033",
+  "id": "bmw-pos-211017",
   "chamadas": [
-    {
-      "nome": "estimativa",
-      "caminho": "120250924584910207/delivery_estimate",
-      "params": {
-        "optimization_goal": "CONVERSATIONS"
-      }
-    },
     {
       "nome": "conj",
       "caminho": "120250924584910207",
       "params": {
-        "fields": "effective_status,configured_status,learning_stage_info,recommendations,promoted_object,destination_type,optimization_goal,billing_event,bid_strategy,targeting,attribution_spec,is_dynamic_creative,pacing_type"
-      }
-    },
-    {
-      "nome": "camp",
-      "caminho": "120250924584380207",
-      "params": {
-        "fields": "effective_status,configured_status,recommendations,issues_info,special_ad_categories,objective,buying_type,spend_cap"
+        "fields": "effective_status,issues_info,budget_remaining"
       }
     },
     {
       "nome": "ad",
       "caminho": "120250924700090207",
       "params": {
-        "fields": "effective_status,configured_status,ad_review_feedback,recommendations,issues_info,creative{id,status,effective_instagram_media_id,instagram_user_id,object_type,call_to_action_type,object_story_spec,effective_object_story_id}"
+        "fields": "effective_status,issues_info,ad_review_feedback,delivery_info"
       }
     },
     {
-      "nome": "pagina_wa",
+      "nome": "est",
+      "caminho": "120250924584910207/delivery_estimate",
+      "params": {
+        "optimization_goal": "CONVERSATIONS"
+      }
+    },
+    {
+      "nome": "ins",
+      "caminho": "120250924584910207/insights",
+      "params": {
+        "date_preset": "maximum",
+        "fields": "impressions,reach,spend"
+      }
+    },
+    {
+      "nome": "wa",
       "caminho": "114024880297153",
       "params": {
-        "fields": "name,whatsapp_number,has_whatsapp_number,has_whatsapp_business_number,is_published"
-      }
-    },
-    {
-      "nome": "ad_insights_hoje",
-      "caminho": "120250924700090207/insights",
-      "params": {
-        "date_preset": "today",
-        "fields": "impressions,spend"
+        "fields": "whatsapp_number"
       }
     }
   ]
