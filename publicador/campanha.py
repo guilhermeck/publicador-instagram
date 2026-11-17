@@ -82,11 +82,18 @@ def ativar(p, out):
         out["ativados"][i] = chamar("GET", i, {"fields": "name,status,effective_status"})
 
 
+def apagar(p, out):
+    """Apaga objetos pelo id (ex.: um post do Instagram publicado em duplicidade)."""
+    out["apagados"] = {}
+    for i in p["ids"]:
+        out["apagados"][i] = chamar("DELETE", i)
+
+
 def main():
     p = json.loads((RAIZ / "status" / "campanha.json").read_text())
     out = {"id": p["id"], "acao": p["acao"]}
     try:
-        {"criar": criar, "completar": completar, "atualizar": atualizar, "ativar": ativar}[p["acao"]](p, out)
+        {"criar": criar, "completar": completar, "atualizar": atualizar, "ativar": ativar, "apagar": apagar}[p["acao"]](p, out)
         out["ok"] = True
     except MetaErro as e:
         out["ok"] = False

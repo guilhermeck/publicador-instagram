@@ -28,7 +28,7 @@ def chamar(metodo, caminho, params=None):
     if metodo == "GET":
         req = urllib.request.Request(f"{url}?{dados.decode()}")
     else:
-        req = urllib.request.Request(url, data=dados, method="POST")
+        req = urllib.request.Request(url, data=dados, method=metodo)
     try:
         with urllib.request.urlopen(req, timeout=120) as r:
             return json.loads(r.read().decode())
