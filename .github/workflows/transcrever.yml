@@ -1,0 +1,27 @@
+name: Transcrever audio
+on:
+  push:
+    paths: ['status/transcrever/*.mp3']
+jobs:
+  transcrever:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - run: pip install -q faster-whisper
+      - run: |
+          python3 - <<'PY'
+          import glob, os
+          from faster_whisper import WhisperModel
+          m = WhisperModel("small", device="cpu", compute_type="int8")
+          for f in glob.glob("status/transcrever/*.mp3"):
+              out = f[:-4] + ".txt"
+              if os.path.exists(out): continue
+              segs, _ = m.transcribe(f, language="pt")
+              open(out, "w").write("\n".join(f"{s.start:5.1f} {s.text.strip()}" for s in segs))
+          PY
+      - run: |
+          git config user.name robo; git config user.email robo@users.noreply.github.com
+          git add status/transcrever; git commit -m "Transcrição" || exit 0
+          for i in 1 2 3; do git pull --rebase -q && git push && break; sleep 5; done
