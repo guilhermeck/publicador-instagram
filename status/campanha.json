@@ -1,1 +1,84 @@
-{"id": "apagar-xre-duplicado", "acao": "apagar", "ids": ["18112750679527388"]}
+{
+  "id": "alfa-historia-fabio-1",
+  "acao": "criar",
+  "conta": "act_2492793277580773",
+  "campanha": {
+    "name": "Reels História do Fabio - Engajamento",
+    "objective": "OUTCOME_ENGAGEMENT",
+    "special_ad_categories": [],
+    "buying_type": "AUCTION"
+  },
+  "conjunto": {
+    "name": "História do Fabio - TB, Ortigueira, Curiúva, Tibagi, Ventania, PG",
+    "lifetime_budget": 10000,
+    "start_time": "2026-11-17T23:30:00-0300",
+    "end_time": "2026-11-24T23:30:00-0300",
+    "billing_event": "IMPRESSIONS",
+    "optimization_goal": "POST_ENGAGEMENT",
+    "destination_type": "ON_POST",
+    "bid_strategy": "LOWEST_COST_WITHOUT_CAP",
+    "targeting": {
+      "geo_locations": {
+        "cities": [
+          {
+            "key": "272231",
+            "radius": 17,
+            "distance_unit": "kilometer"
+          },
+          {
+            "key": "261983",
+            "radius": 17,
+            "distance_unit": "kilometer"
+          },
+          {
+            "key": "250463",
+            "radius": 17,
+            "distance_unit": "kilometer"
+          },
+          {
+            "key": "272400",
+            "radius": 17,
+            "distance_unit": "kilometer"
+          },
+          {
+            "key": "273866",
+            "radius": 17,
+            "distance_unit": "kilometer"
+          },
+          {
+            "key": "264635",
+            "radius": 17,
+            "distance_unit": "kilometer"
+          }
+        ],
+        "location_types": [
+          "home",
+          "recent"
+        ]
+      },
+      "age_min": 18,
+      "age_max": 65,
+      "publisher_platforms": [
+        "instagram"
+      ],
+      "instagram_positions": [
+        "stream",
+        "reels",
+        "story",
+        "explore"
+      ],
+      "targeting_automation": {
+        "advantage_audience": 0
+      }
+    }
+  },
+  "criativo": {
+    "name": "História do Fabio - Reels (Instagram)",
+    "object_id": "114024880297153",
+    "instagram_user_id": "17841439724629419",
+    "source_instagram_media_id": "17866201623692282"
+  },
+  "anuncio": {
+    "name": "História do Fabio - Reels"
+  }
+}
