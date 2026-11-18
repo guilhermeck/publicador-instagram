@@ -1,12 +1,37 @@
 {
-  "id": "alfa-media-133606",
+  "id": "alfa-nova-230033",
   "chamadas": [
     {
       "nome": "m",
       "caminho": "17841439724629419/media",
       "params": {
-        "fields": "id,media_type,media_product_type,timestamp,permalink,caption",
-        "limit": "6"
+        "fields": "id,media_type,media_product_type,timestamp,permalink,caption,boost_eligibility_info",
+        "limit": "25"
+      }
+    },
+    {
+      "nome": "pg",
+      "caminho": "search",
+      "params": {
+        "type": "adgeolocation",
+        "location_types": "[\"city\"]",
+        "q": "Ponta Grossa",
+        "country_code": "BR"
+      }
+    },
+    {
+      "nome": "camps",
+      "caminho": "act_2492793277580773/campaigns",
+      "params": {
+        "fields": "name,effective_status",
+        "limit": "20"
+      }
+    },
+    {
+      "nome": "conta",
+      "caminho": "act_2492793277580773",
+      "params": {
+        "fields": "amount_spent,spend_cap"
       }
     }
   ]
