@@ -1,5 +1,5 @@
 {
-  "id": "alfa-historia-fabio-1",
+  "id": "alfa-historia-fabio-2",
   "acao": "criar",
   "conta": "act_2492793277580773",
   "campanha": {
@@ -64,8 +64,7 @@
       "instagram_positions": [
         "stream",
         "reels",
-        "story",
-        "explore"
+        "story"
       ],
       "targeting_automation": {
         "advantage_audience": 0
@@ -80,5 +79,6 @@
   },
   "anuncio": {
     "name": "História do Fabio - Reels"
-  }
+  },
+  "campanha_id": "120251018050630207"
 }

@@ -22,9 +22,12 @@ def campos(d):
 def criar(p, out):
     conta = p["conta"]
     camp = dict(p["campanha"], status="PAUSED")
-    try:
+    if p.get("campanha_id"):
+        out["campanha_id"] = p["campanha_id"]
+    else:
+      try:
         out["campanha_id"] = chamar("POST", f"{conta}/campaigns", campos(camp))["id"]
-    except MetaErro as e:
+      except MetaErro as e:
         if "is_adset_budget_sharing_enabled" not in str(e) and "budget sharing" not in str(e).lower():
             raise
         camp["is_adset_budget_sharing_enabled"] = False
