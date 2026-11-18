@@ -1,19 +1,12 @@
 {
-  "id": "plastipel-perfil-231357",
+  "id": "alfa-media-130819",
   "chamadas": [
     {
-      "nome": "ig",
-      "caminho": "17841409681643186",
-      "params": {
-        "fields": "username,name,biography,website,profile_picture_url"
-      }
-    },
-    {
       "nome": "m",
-      "caminho": "17841409681643186/media",
+      "caminho": "17841439724629419/media",
       "params": {
-        "fields": "id,media_type,media_url,thumbnail_url,caption,timestamp,permalink",
-        "limit": "12"
+        "fields": "id,media_product_type,timestamp,permalink,caption",
+        "limit": "5"
       }
     }
   ]
