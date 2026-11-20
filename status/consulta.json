@@ -1,12 +1,19 @@
 {
-  "id": "alfa-media-130819",
+  "id": "jcw-media-223507",
   "chamadas": [
     {
       "nome": "m",
-      "caminho": "17841439724629419/media",
+      "caminho": "17841403494709607/media",
       "params": {
-        "fields": "id,media_product_type,timestamp,permalink,caption",
-        "limit": "5"
+        "fields": "id,timestamp,permalink,caption",
+        "limit": "4"
+      }
+    },
+    {
+      "nome": "s",
+      "caminho": "17841403494709607/stories",
+      "params": {
+        "fields": "id,timestamp"
       }
     }
   ]
