@@ -1,5 +1,5 @@
 {
-  "id": "jetta-alfa-1",
+  "id": "jetta-alfa-2",
   "acao": "criar",
   "conta": "act_2492793277580773",
   "campanha": {
@@ -9,10 +9,10 @@
     "buying_type": "AUCTION"
   },
   "conjunto": {
-    "name": "Jetta - TB, PG, Ortigueira, Tibagi, Curiúva, Ventania, Imbaú 25-60 compradores",
-    "lifetime_budget": 10000,
-    "start_time": "2026-11-21T09:20:00-0300",
-    "end_time": "2026-11-28T09:20:00-0300",
+    "name": "Jetta WhatsApp - 7 cidades 25-60 compradores",
+    "lifetime_budget": 7000,
+    "start_time": "2026-11-21T09:15:00-0300",
+    "end_time": "2026-11-28T09:15:00-0300",
     "billing_event": "IMPRESSIONS",
     "optimization_goal": "CONVERSATIONS",
     "destination_type": "WHATSAPP",
@@ -75,28 +75,12 @@
               "name": "Volkswagen Jetta"
             },
             {
-              "id": "6003210509646",
-              "name": "Volkswagen Vento"
-            },
-            {
               "id": "6003144341584",
               "name": "Volkswagen (veículo)"
             },
             {
-              "id": "6003158718475",
-              "name": "Sedan"
-            },
-            {
-              "id": "6007783492579",
-              "name": "WebMotors"
-            },
-            {
               "id": "6832284024121",
               "name": "Sites de vendas de veículos (sites)"
-            },
-            {
-              "id": "6002965402168",
-              "name": "OLX Brasil"
             },
             {
               "id": "6003284404179",
@@ -124,5 +108,6 @@
   },
   "anuncio": {
     "name": "VW Jetta 2012 - Reels"
-  }
+  },
+  "campanha_id": "120251074034160207"
 }
