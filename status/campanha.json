@@ -1,1 +1,128 @@
-{"id": "alfa-historia-fabio-ativar", "acao": "ativar", "ids": ["120251018050630207", "120251018052160207", "120251018052480207"]}
+{
+  "id": "jetta-alfa-1",
+  "acao": "criar",
+  "conta": "act_2492793277580773",
+  "campanha": {
+    "name": "VW Jetta 2012 - Conversas WhatsApp",
+    "objective": "OUTCOME_ENGAGEMENT",
+    "special_ad_categories": [],
+    "buying_type": "AUCTION"
+  },
+  "conjunto": {
+    "name": "Jetta - TB, PG, Ortigueira, Tibagi, Curiúva, Ventania, Imbaú 25-60 compradores",
+    "lifetime_budget": 10000,
+    "start_time": "2026-11-21T09:20:00-0300",
+    "end_time": "2026-11-28T09:20:00-0300",
+    "billing_event": "IMPRESSIONS",
+    "optimization_goal": "CONVERSATIONS",
+    "destination_type": "WHATSAPP",
+    "bid_strategy": "LOWEST_COST_WITHOUT_CAP",
+    "promoted_object": {
+      "page_id": "114024880297153",
+      "whatsapp_phone_number": "554288056270"
+    },
+    "targeting": {
+      "geo_locations": {
+        "cities": [
+          {
+            "key": "272231",
+            "radius": 17,
+            "distance_unit": "kilometer"
+          },
+          {
+            "key": "264635",
+            "radius": 17,
+            "distance_unit": "kilometer"
+          },
+          {
+            "key": "261983",
+            "radius": 17,
+            "distance_unit": "kilometer"
+          },
+          {
+            "key": "272400",
+            "radius": 17,
+            "distance_unit": "kilometer"
+          },
+          {
+            "key": "250463",
+            "radius": 17,
+            "distance_unit": "kilometer"
+          },
+          {
+            "key": "273866",
+            "radius": 17,
+            "distance_unit": "kilometer"
+          },
+          {
+            "key": "255118",
+            "radius": 17,
+            "distance_unit": "kilometer"
+          }
+        ],
+        "location_types": [
+          "home",
+          "recent"
+        ]
+      },
+      "age_min": 25,
+      "age_max": 60,
+      "flexible_spec": [
+        {
+          "interests": [
+            {
+              "id": "6003291737802",
+              "name": "Volkswagen Jetta"
+            },
+            {
+              "id": "6003210509646",
+              "name": "Volkswagen Vento"
+            },
+            {
+              "id": "6003144341584",
+              "name": "Volkswagen (veículo)"
+            },
+            {
+              "id": "6003158718475",
+              "name": "Sedan"
+            },
+            {
+              "id": "6007783492579",
+              "name": "WebMotors"
+            },
+            {
+              "id": "6832284024121",
+              "name": "Sites de vendas de veículos (sites)"
+            },
+            {
+              "id": "6002965402168",
+              "name": "OLX Brasil"
+            },
+            {
+              "id": "6003284404179",
+              "name": "Concessionária (varejista)"
+            }
+          ]
+        }
+      ],
+      "targeting_automation": {
+        "advantage_audience": 0
+      }
+    }
+  },
+  "criativo": {
+    "name": "VW Jetta 2012 - Reels (Instagram)",
+    "object_id": "114024880297153",
+    "instagram_user_id": "17841439724629419",
+    "source_instagram_media_id": "18118811366015993",
+    "call_to_action": {
+      "type": "WHATSAPP_MESSAGE",
+      "value": {
+        "app_destination": "WHATSAPP"
+      }
+    }
+  },
+  "anuncio": {
+    "name": "VW Jetta 2012 - Reels"
+  }
+}
