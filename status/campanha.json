@@ -1,23 +1,9 @@
 {
-  "id": "jetta-alfa-6",
-  "acao": "completar",
-  "conta": "act_2492793277580773",
-  "campanha_id": "120251074034160207",
-  "conjunto_id": "120251074038020207",
-  "criativo": {
-    "name": "VW Jetta 2012 - Reels (Instagram)",
-    "object_id": "114024880297153",
-    "instagram_user_id": "17841439724629419",
-    "source_instagram_media_id": "18118811366015993",
-    "call_to_action": {
-      "type": "WHATSAPP_MESSAGE",
-      "value": {
-        "app_destination": "WHATSAPP",
-        "link": "https://api.whatsapp.com/send"
-      }
-    }
+  "id": "jetta-alfa-7",
+  "acao": "atualizar",
+  "objeto": "120251074038020207",
+  "campos": {
+    "lifetime_budget": 5000
   },
-  "anuncio": {
-    "name": "VW Jetta 2012 - Reels WhatsApp"
-  }
+  "conferir": "lifetime_budget"
 }
