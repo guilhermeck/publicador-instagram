@@ -1,113 +1,18 @@
 {
-  "id": "jetta-int-090008",
+  "id": "correia-teste-145027",
   "chamadas": [
     {
-      "nome": "i_Volkswagen Jetta",
-      "caminho": "search",
+      "nome": "ig",
+      "caminho": "17841475022611157",
       "params": {
-        "type": "adinterest",
-        "q": "Volkswagen Jetta",
-        "locale": "pt_BR",
-        "limit": "4"
+        "fields": "username,name,followers_count,media_count,biography"
       }
     },
     {
-      "nome": "i_Volkswagen",
-      "caminho": "search",
+      "nome": "lim",
+      "caminho": "17841475022611157/content_publishing_limit",
       "params": {
-        "type": "adinterest",
-        "q": "Volkswagen",
-        "locale": "pt_BR",
-        "limit": "4"
-      }
-    },
-    {
-      "nome": "i_Sedan",
-      "caminho": "search",
-      "params": {
-        "type": "adinterest",
-        "q": "Sedan",
-        "locale": "pt_BR",
-        "limit": "4"
-      }
-    },
-    {
-      "nome": "i_Carros usados",
-      "caminho": "search",
-      "params": {
-        "type": "adinterest",
-        "q": "Carros usados",
-        "locale": "pt_BR",
-        "limit": "4"
-      }
-    },
-    {
-      "nome": "i_Webmotors",
-      "caminho": "search",
-      "params": {
-        "type": "adinterest",
-        "q": "Webmotors",
-        "locale": "pt_BR",
-        "limit": "4"
-      }
-    },
-    {
-      "nome": "i_OLX",
-      "caminho": "search",
-      "params": {
-        "type": "adinterest",
-        "q": "OLX",
-        "locale": "pt_BR",
-        "limit": "4"
-      }
-    },
-    {
-      "nome": "i_Financiamento de veículos",
-      "caminho": "search",
-      "params": {
-        "type": "adinterest",
-        "q": "Financiamento de veículos",
-        "locale": "pt_BR",
-        "limit": "4"
-      }
-    },
-    {
-      "nome": "i_Compra de carro",
-      "caminho": "search",
-      "params": {
-        "type": "adinterest",
-        "q": "Compra de carro",
-        "locale": "pt_BR",
-        "limit": "4"
-      }
-    },
-    {
-      "nome": "i_Automóveis",
-      "caminho": "search",
-      "params": {
-        "type": "adinterest",
-        "q": "Automóveis",
-        "locale": "pt_BR",
-        "limit": "4"
-      }
-    },
-    {
-      "nome": "i_Concessionária",
-      "caminho": "search",
-      "params": {
-        "type": "adinterest",
-        "q": "Concessionária",
-        "locale": "pt_BR",
-        "limit": "4"
-      }
-    },
-    {
-      "nome": "beh",
-      "caminho": "search",
-      "params": {
-        "type": "adTargetingCategory",
-        "class": "behaviors",
-        "limit": "200"
+        "fields": "quota_usage,config"
       }
     }
   ]
