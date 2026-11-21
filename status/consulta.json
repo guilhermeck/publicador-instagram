@@ -1,18 +1,19 @@
 {
-  "id": "correia-teste-145027",
+  "id": "alfa-media-150224",
   "chamadas": [
     {
-      "nome": "ig",
-      "caminho": "17841475022611157",
+      "nome": "m",
+      "caminho": "17841439724629419/media",
       "params": {
-        "fields": "username,name,followers_count,media_count,biography"
+        "fields": "id,timestamp,permalink",
+        "limit": "3"
       }
     },
     {
-      "nome": "lim",
-      "caminho": "17841475022611157/content_publishing_limit",
+      "nome": "s",
+      "caminho": "17841439724629419/stories",
       "params": {
-        "fields": "quota_usage,config"
+        "fields": "id,timestamp"
       }
     }
   ]
