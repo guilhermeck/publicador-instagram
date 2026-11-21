@@ -1,35 +1,113 @@
 {
-  "id": "bmw-final-085625",
+  "id": "jetta-int-090008",
   "chamadas": [
     {
-      "nome": "total",
-      "caminho": "120250924584380207/insights",
+      "nome": "i_Volkswagen Jetta",
+      "caminho": "search",
       "params": {
-        "date_preset": "maximum",
-        "fields": "spend,impressions,reach,frequency,clicks,ctr,cpm,actions,cost_per_action_type,video_thruplay_watched_actions"
+        "type": "adinterest",
+        "q": "Volkswagen Jetta",
+        "locale": "pt_BR",
+        "limit": "4"
       }
     },
     {
-      "nome": "dia",
-      "caminho": "120250924584380207/insights",
+      "nome": "i_Volkswagen",
+      "caminho": "search",
       "params": {
-        "date_preset": "maximum",
-        "time_increment": "1",
-        "fields": "spend,impressions,reach,actions"
+        "type": "adinterest",
+        "q": "Volkswagen",
+        "locale": "pt_BR",
+        "limit": "4"
       }
     },
     {
-      "nome": "camp",
-      "caminho": "120250924584380207",
+      "nome": "i_Sedan",
+      "caminho": "search",
       "params": {
-        "fields": "effective_status,start_time,stop_time"
+        "type": "adinterest",
+        "q": "Sedan",
+        "locale": "pt_BR",
+        "limit": "4"
       }
     },
     {
-      "nome": "conj",
-      "caminho": "120250924584910207",
+      "nome": "i_Carros usados",
+      "caminho": "search",
       "params": {
-        "fields": "effective_status,end_time,budget_remaining"
+        "type": "adinterest",
+        "q": "Carros usados",
+        "locale": "pt_BR",
+        "limit": "4"
+      }
+    },
+    {
+      "nome": "i_Webmotors",
+      "caminho": "search",
+      "params": {
+        "type": "adinterest",
+        "q": "Webmotors",
+        "locale": "pt_BR",
+        "limit": "4"
+      }
+    },
+    {
+      "nome": "i_OLX",
+      "caminho": "search",
+      "params": {
+        "type": "adinterest",
+        "q": "OLX",
+        "locale": "pt_BR",
+        "limit": "4"
+      }
+    },
+    {
+      "nome": "i_Financiamento de veículos",
+      "caminho": "search",
+      "params": {
+        "type": "adinterest",
+        "q": "Financiamento de veículos",
+        "locale": "pt_BR",
+        "limit": "4"
+      }
+    },
+    {
+      "nome": "i_Compra de carro",
+      "caminho": "search",
+      "params": {
+        "type": "adinterest",
+        "q": "Compra de carro",
+        "locale": "pt_BR",
+        "limit": "4"
+      }
+    },
+    {
+      "nome": "i_Automóveis",
+      "caminho": "search",
+      "params": {
+        "type": "adinterest",
+        "q": "Automóveis",
+        "locale": "pt_BR",
+        "limit": "4"
+      }
+    },
+    {
+      "nome": "i_Concessionária",
+      "caminho": "search",
+      "params": {
+        "type": "adinterest",
+        "q": "Concessionária",
+        "locale": "pt_BR",
+        "limit": "4"
+      }
+    },
+    {
+      "nome": "beh",
+      "caminho": "search",
+      "params": {
+        "type": "adTargetingCategory",
+        "class": "behaviors",
+        "limit": "200"
       }
     }
   ]
