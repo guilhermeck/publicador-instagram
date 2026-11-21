@@ -1,99 +1,8 @@
 {
-  "id": "jetta-alfa-2",
-  "acao": "criar",
+  "id": "jetta-alfa-3",
+  "acao": "completar",
   "conta": "act_2492793277580773",
-  "campanha": {
-    "name": "VW Jetta 2012 - Conversas WhatsApp",
-    "objective": "OUTCOME_ENGAGEMENT",
-    "special_ad_categories": [],
-    "buying_type": "AUCTION"
-  },
-  "conjunto": {
-    "name": "Jetta WhatsApp - 7 cidades 25-60 compradores",
-    "lifetime_budget": 7000,
-    "start_time": "2026-11-21T09:15:00-0300",
-    "end_time": "2026-11-28T09:15:00-0300",
-    "billing_event": "IMPRESSIONS",
-    "optimization_goal": "CONVERSATIONS",
-    "destination_type": "WHATSAPP",
-    "bid_strategy": "LOWEST_COST_WITHOUT_CAP",
-    "promoted_object": {
-      "page_id": "114024880297153",
-      "whatsapp_phone_number": "554288056270"
-    },
-    "targeting": {
-      "geo_locations": {
-        "cities": [
-          {
-            "key": "272231",
-            "radius": 17,
-            "distance_unit": "kilometer"
-          },
-          {
-            "key": "264635",
-            "radius": 17,
-            "distance_unit": "kilometer"
-          },
-          {
-            "key": "261983",
-            "radius": 17,
-            "distance_unit": "kilometer"
-          },
-          {
-            "key": "272400",
-            "radius": 17,
-            "distance_unit": "kilometer"
-          },
-          {
-            "key": "250463",
-            "radius": 17,
-            "distance_unit": "kilometer"
-          },
-          {
-            "key": "273866",
-            "radius": 17,
-            "distance_unit": "kilometer"
-          },
-          {
-            "key": "255118",
-            "radius": 17,
-            "distance_unit": "kilometer"
-          }
-        ],
-        "location_types": [
-          "home",
-          "recent"
-        ]
-      },
-      "age_min": 25,
-      "age_max": 60,
-      "flexible_spec": [
-        {
-          "interests": [
-            {
-              "id": "6003291737802",
-              "name": "Volkswagen Jetta"
-            },
-            {
-              "id": "6003144341584",
-              "name": "Volkswagen (veículo)"
-            },
-            {
-              "id": "6832284024121",
-              "name": "Sites de vendas de veículos (sites)"
-            },
-            {
-              "id": "6003284404179",
-              "name": "Concessionária (varejista)"
-            }
-          ]
-        }
-      ],
-      "targeting_automation": {
-        "advantage_audience": 0
-      }
-    }
-  },
+  "conjunto_id": "120251074038020207",
   "criativo": {
     "name": "VW Jetta 2012 - Reels (Instagram)",
     "object_id": "114024880297153",
@@ -102,12 +11,12 @@
     "call_to_action": {
       "type": "WHATSAPP_MESSAGE",
       "value": {
-        "app_destination": "WHATSAPP"
+        "app_destination": "WHATSAPP",
+        "link": "https://api.whatsapp.com/send"
       }
     }
   },
   "anuncio": {
-    "name": "VW Jetta 2012 - Reels"
-  },
-  "campanha_id": "120251074034160207"
+    "name": "VW Jetta 2012 - Reels WhatsApp"
+  }
 }
