@@ -1,19 +1,35 @@
 {
-  "id": "jcw-media-223507",
+  "id": "bmw-final-085625",
   "chamadas": [
     {
-      "nome": "m",
-      "caminho": "17841403494709607/media",
+      "nome": "total",
+      "caminho": "120250924584380207/insights",
       "params": {
-        "fields": "id,timestamp,permalink,caption",
-        "limit": "4"
+        "date_preset": "maximum",
+        "fields": "spend,impressions,reach,frequency,clicks,ctr,cpm,actions,cost_per_action_type,video_thruplay_watched_actions"
       }
     },
     {
-      "nome": "s",
-      "caminho": "17841403494709607/stories",
+      "nome": "dia",
+      "caminho": "120250924584380207/insights",
       "params": {
-        "fields": "id,timestamp"
+        "date_preset": "maximum",
+        "time_increment": "1",
+        "fields": "spend,impressions,reach,actions"
+      }
+    },
+    {
+      "nome": "camp",
+      "caminho": "120250924584380207",
+      "params": {
+        "fields": "effective_status,start_time,stop_time"
+      }
+    },
+    {
+      "nome": "conj",
+      "caminho": "120250924584910207",
+      "params": {
+        "fields": "effective_status,end_time,budget_remaining"
       }
     }
   ]
