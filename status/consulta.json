@@ -1,19 +1,18 @@
 {
-  "id": "alfa-media-150224",
+  "id": "correia-teste2-214755",
   "chamadas": [
     {
-      "nome": "m",
-      "caminho": "17841439724629419/media",
+      "nome": "ig",
+      "caminho": "17841475022611157",
       "params": {
-        "fields": "id,timestamp,permalink",
-        "limit": "3"
+        "fields": "username,name,media_count"
       }
     },
     {
-      "nome": "s",
-      "caminho": "17841439724629419/stories",
+      "nome": "lim",
+      "caminho": "17841475022611157/content_publishing_limit",
       "params": {
-        "fields": "id,timestamp"
+        "fields": "quota_usage"
       }
     }
   ]
