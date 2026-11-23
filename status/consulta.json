@@ -1,18 +1,18 @@
 {
-  "id": "correia-teste2-214755",
+  "id": "correia-media-095152",
   "chamadas": [
     {
-      "nome": "ig",
-      "caminho": "17841475022611157",
+      "nome": "m",
+      "caminho": "17841475022611157/media",
       "params": {
-        "fields": "username,name,media_count"
+        "fields": "id,timestamp,permalink"
       }
     },
     {
-      "nome": "lim",
-      "caminho": "17841475022611157/content_publishing_limit",
+      "nome": "s",
+      "caminho": "17841475022611157/stories",
       "params": {
-        "fields": "quota_usage"
+        "fields": "id"
       }
     }
   ]
