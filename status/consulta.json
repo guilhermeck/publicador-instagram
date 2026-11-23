@@ -1,68 +1,33 @@
 {
-  "id": "alfa-gastos-162847",
+  "id": "alfa-msg-164941",
   "chamadas": [
     {
-      "nome": "conta",
-      "caminho": "act_2492793277580773",
-      "params": {
-        "fields": "name,currency,amount_spent,spend_cap,balance,account_status,funding_source_details,created_time"
-      }
-    },
-    {
-      "nome": "mensal",
+      "nome": "dia",
       "caminho": "act_2492793277580773/insights",
       "params": {
-        "time_range": "{\"since\":\"2026-01-01\",\"until\":\"2026-11-23\"}",
-        "time_increment": "monthly",
+        "time_range": "{\"since\":\"2026-11-14\",\"until\":\"2026-11-23\"}",
+        "time_increment": "1",
         "fields": "spend"
       }
     },
     {
-      "nome": "camp_total",
+      "nome": "c7",
       "caminho": "act_2492793277580773/insights",
       "params": {
         "level": "campaign",
-        "date_preset": "maximum",
-        "fields": "campaign_id,campaign_name,spend,date_start,date_stop",
-        "limit": "100"
+        "date_preset": "last_7d",
+        "fields": "campaign_name,spend,impressions,reach,actions,cost_per_action_type",
+        "limit": "50"
       }
     },
     {
-      "nome": "camp_nov",
+      "nome": "cnov",
       "caminho": "act_2492793277580773/insights",
       "params": {
         "level": "campaign",
         "time_range": "{\"since\":\"2026-11-01\",\"until\":\"2026-11-23\"}",
-        "fields": "campaign_name,spend",
-        "limit": "100"
-      }
-    },
-    {
-      "nome": "camp_out",
-      "caminho": "act_2492793277580773/insights",
-      "params": {
-        "level": "campaign",
-        "time_range": "{\"since\":\"2026-10-01\",\"until\":\"2026-10-31\"}",
-        "fields": "campaign_name,spend",
-        "limit": "100"
-      }
-    },
-    {
-      "nome": "ativas",
-      "caminho": "act_2492793277580773/adsets",
-      "params": {
-        "fields": "name,effective_status,daily_budget,lifetime_budget,end_time,campaign{name}",
-        "effective_status": "[\"ACTIVE\"]",
-        "limit": "100"
-      }
-    },
-    {
-      "nome": "atividade",
-      "caminho": "act_2492793277580773/activities",
-      "params": {
-        "fields": "event_type,event_time,actor_name,object_name,extra_data",
-        "limit": "60",
-        "since": "2026-09-01"
+        "fields": "campaign_name,spend,impressions,reach,actions,cost_per_action_type",
+        "limit": "50"
       }
     }
   ]
