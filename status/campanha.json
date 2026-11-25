@@ -1,9 +1,10 @@
 {
-  "id": "alfa-pausa-jeep",
+  "id": "alfa-semana-polo",
   "acao": "atualizar",
-  "objeto": "120250228182490207",
+  "objeto": "120250228414240207",
   "campos": {
-    "status": "PAUSED"
+    "daily_budget": 2000,
+    "stop_time": "2026-11-29T23:59:00-0300"
   },
-  "conferir": "name,status,effective_status"
+  "conferir": "name,daily_budget,stop_time,effective_status"
 }
