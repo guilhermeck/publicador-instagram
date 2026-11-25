@@ -1,9 +1,9 @@
 {
-  "id": "alfa-teto-jeep",
+  "id": "alfa-teto-civic",
   "acao": "atualizar",
-  "objeto": "120250228182490207",
+  "objeto": "120250228026120207",
   "campos": {
-    "spend_cap": 163515,
+    "spend_cap": 164272,
     "daily_budget": 2000
   },
   "conferir": "name,daily_budget,spend_cap,effective_status"
