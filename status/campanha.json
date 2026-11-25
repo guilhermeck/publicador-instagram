@@ -1,22 +1,10 @@
 {
-  "id": "barbosa-cta-4",
-  "acao": "completar",
-  "conta": "act_24604313859170722",
-  "campanha_id": "120257816676650011",
-  "conjunto_id": "120257816708810011",
-  "criativo": {
-    "name": "Reels 24/11 - botão Ver perfil S4",
-    "object_id": "695345473656189",
-    "instagram_user_id": "17841474935700646",
-    "source_instagram_media_id": "17957108307288210",
-    "call_to_action": {
-      "type": "VIEW_INSTAGRAM_PROFILE",
-      "value": {
-        "link": "https://www.instagram.com/borrachariabarbosatb/"
-      }
-    }
-  },
-  "anuncio": {
-    "name": "Reels 24/11 - Ver perfil S4"
-  }
+  "id": "barbosa-cta-ativar",
+  "acao": "ativar",
+  "ids": [
+    "120257816834280011",
+    "120257816836570011",
+    "120257816837960011",
+    "120257816839130011"
+  ]
 }
