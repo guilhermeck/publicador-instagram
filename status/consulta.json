@@ -1,18 +1,23 @@
 {
-  "id": "barbosa-ver-224135",
+  "id": "alfa-fim-075459",
   "chamadas": [
     {
-      "nome": "r",
-      "caminho": "17957108307288210",
+      "nome": "a",
+      "caminho": "act_2492793277580773/adsets",
       "params": {
-        "fields": "caption,permalink"
+        "fields": "name,effective_status,lifetime_budget,budget_remaining,start_time,end_time,campaign{name}",
+        "effective_status": "[\"ACTIVE\",\"PAUSED\",\"CAMPAIGN_PAUSED\",\"ADSET_PAUSED\"]",
+        "limit": "30"
       }
     },
     {
-      "nome": "ig",
-      "caminho": "17841474935700646",
+      "nome": "i",
+      "caminho": "act_2492793277580773/insights",
       "params": {
-        "fields": "username,name,biography,website"
+        "level": "campaign",
+        "time_range": "{\"since\":\"2026-11-21\",\"until\":\"2026-11-25\"}",
+        "fields": "campaign_name,spend",
+        "limit": "30"
       }
     }
   ]
