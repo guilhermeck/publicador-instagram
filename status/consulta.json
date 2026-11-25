@@ -1,34 +1,37 @@
 {
-  "id": "jeep-copia-080808",
+  "id": "pc-midia-081021",
   "chamadas": [
     {
-      "nome": "adsets",
-      "caminho": "120250228182490207/adsets",
+      "nome": "POLO",
+      "caminho": "120250228414240207/ads",
       "params": {
-        "fields": "name,optimization_goal,destination_type,promoted_object,targeting,billing_event,bid_strategy"
-      }
-    },
-    {
-      "nome": "ads",
-      "caminho": "120250228182490207/ads",
-      "params": {
-        "fields": "name,creative{object_story_spec,call_to_action_type,instagram_user_id,source_instagram_media_id,effective_instagram_media_id}",
+        "fields": "name,effective_status,creative{source_instagram_media_id,effective_instagram_media_id,instagram_permalink_url}",
         "limit": "5"
       }
     },
     {
-      "nome": "camp",
-      "caminho": "120250228182490207",
+      "nome": "CIVIC",
+      "caminho": "120250228026120207/ads",
       "params": {
-        "fields": "objective,special_ad_categories"
+        "fields": "name,effective_status,creative{source_instagram_media_id,effective_instagram_media_id,instagram_permalink_url}",
+        "limit": "5"
       }
     },
     {
-      "nome": "m",
-      "caminho": "17841439724629419/media",
+      "nome": "hoje",
+      "caminho": "act_2492793277580773/insights",
       "params": {
-        "fields": "id,permalink,caption,timestamp",
-        "limit": "10"
+        "level": "campaign",
+        "date_preset": "today",
+        "fields": "campaign_name,spend",
+        "limit": "20"
+      }
+    },
+    {
+      "nome": "jetta",
+      "caminho": "120251074034160207/adsets",
+      "params": {
+        "fields": "name,budget_remaining,end_time"
       }
     }
   ]
