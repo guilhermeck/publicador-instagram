@@ -1,7 +1,128 @@
 {
-  "id": "jetta-alfa-10",
-  "acao": "ativar",
-  "ids": [
-    "120251074034160207"
-  ]
+  "id": "barbosa-1",
+  "acao": "criar",
+  "conta": "act_24604313859170722",
+  "campanha": {
+    "name": "Borracharia Barbosa - Reels 24/11 (WhatsApp + seguidores)",
+    "objective": "OUTCOME_ENGAGEMENT",
+    "special_ad_categories": [],
+    "buying_type": "AUCTION"
+  },
+  "conjunto": {
+    "start_time": "2026-11-24T22:20:00-0300",
+    "end_time": "2026-12-22T19:00:00-0300",
+    "billing_event": "IMPRESSIONS",
+    "bid_strategy": "LOWEST_COST_WITHOUT_CAP",
+    "lifetime_budget": 12000,
+    "pacing_type": [
+      "day_parting"
+    ],
+    "adset_schedule": [
+      {
+        "start_minute": 420,
+        "end_minute": 1140,
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      }
+    ],
+    "name": "WhatsApp - 6 cidades - seg a sex 7h-19h",
+    "optimization_goal": "CONVERSATIONS",
+    "destination_type": "WHATSAPP",
+    "promoted_object": {
+      "page_id": "695345473656189",
+      "whatsapp_phone_number": "5542988299836"
+    },
+    "targeting": {
+      "geo_locations": {
+        "cities": [
+          {
+            "key": "272231",
+            "radius": 15,
+            "distance_unit": "kilometer"
+          },
+          {
+            "key": "255118",
+            "radius": 15,
+            "distance_unit": "kilometer"
+          },
+          {
+            "key": "250463",
+            "radius": 15,
+            "distance_unit": "kilometer"
+          },
+          {
+            "key": "272400",
+            "radius": 15,
+            "distance_unit": "kilometer"
+          },
+          {
+            "key": "273866",
+            "radius": 15,
+            "distance_unit": "kilometer"
+          },
+          {
+            "key": "261983",
+            "radius": 15,
+            "distance_unit": "kilometer"
+          }
+        ],
+        "location_types": [
+          "home",
+          "recent"
+        ]
+      },
+      "age_min": 18,
+      "age_max": 65,
+      "flexible_spec": [
+        {
+          "interests": [
+            {
+              "id": "6002968386892",
+              "name": "pneu"
+            },
+            {
+              "id": "6003176678152",
+              "name": "Automóveis"
+            },
+            {
+              "id": "6003109384433",
+              "name": "mecânico de automóveis"
+            },
+            {
+              "id": "6003092882217",
+              "name": "Caminhões"
+            },
+            {
+              "id": "6003353550130",
+              "name": "Motocicletas"
+            }
+          ]
+        }
+      ],
+      "targeting_automation": {
+        "advantage_audience": 0
+      }
+    }
+  },
+  "criativo": {
+    "name": "Reels 24/11 - WhatsApp",
+    "object_id": "695345473656189",
+    "instagram_user_id": "17841474935700646",
+    "source_instagram_media_id": "17957108307288210",
+    "call_to_action": {
+      "type": "WHATSAPP_MESSAGE",
+      "value": {
+        "app_destination": "WHATSAPP",
+        "link": "https://api.whatsapp.com/send"
+      }
+    }
+  },
+  "anuncio": {
+    "name": "Reels 24/11 - WhatsApp"
+  }
 }
