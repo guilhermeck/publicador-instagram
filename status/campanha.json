@@ -1,5 +1,5 @@
 {
-  "id": "barbosa-7",
+  "id": "barbosa-9",
   "acao": "criar",
   "conta": "act_24604313859170722",
   "campanha_id": "120257816676650011",
@@ -11,7 +11,7 @@
   },
   "conjunto": {
     "name": "Fase 1 - Views e seguidores - 6 cidades - seg a sex",
-    "start_time": "2026-11-24T22:35:00-0300",
+    "start_time": "2026-11-24T22:40:00-0300",
     "end_time": "2026-12-08T19:00:00-0300",
     "billing_event": "IMPRESSIONS",
     "bid_strategy": "LOWEST_COST_WITHOUT_CAP",
@@ -110,8 +110,7 @@
       "instagram_positions": [
         "stream",
         "reels",
-        "story",
-        "explore"
+        "story"
       ]
     }
   },
