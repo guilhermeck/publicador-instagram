@@ -1,9 +1,11 @@
 {
-  "id": "barbosa-10",
-  "acao": "ativar",
-  "ids": [
-    "120257816676650011",
-    "120257816691120011",
-    "120257816692350011"
-  ]
+  "id": "barbosa-11",
+  "acao": "atualizar",
+  "objeto": "120257816691120011",
+  "campos": {
+    "name": "Semana 1 (25-28/11) - Views e seguidores",
+    "lifetime_budget": 6000,
+    "end_time": "2026-11-28T19:00:00-0300"
+  },
+  "conferir": "name,lifetime_budget,end_time,effective_status"
 }
