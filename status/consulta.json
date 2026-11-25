@@ -1,18 +1,19 @@
 {
-  "id": "barbosa-teste-220230",
+  "id": "barbosa-ads-220931",
   "chamadas": [
     {
-      "nome": "ig",
-      "caminho": "17841474935700646",
+      "nome": "conta",
+      "caminho": "act_24604313859170722",
       "params": {
-        "fields": "username,name,biography,followers_count,media_count"
+        "fields": "name,account_status,currency,balance,amount_spent,spend_cap,funding_source_details,disable_reason"
       }
     },
     {
-      "nome": "lim",
-      "caminho": "17841474935700646/content_publishing_limit",
+      "nome": "m",
+      "caminho": "17841474935700646/media",
       "params": {
-        "fields": "quota_usage"
+        "fields": "id,media_product_type,timestamp,permalink,caption,like_count,comments_count",
+        "limit": "12"
       }
     }
   ]
