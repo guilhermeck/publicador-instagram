@@ -1,37 +1,19 @@
 {
-  "id": "pc-midia-081021",
+  "id": "alfa-total-082031",
   "chamadas": [
     {
-      "nome": "POLO",
-      "caminho": "120250228414240207/ads",
+      "nome": "c",
+      "caminho": "act_2492793277580773/campaigns",
       "params": {
-        "fields": "name,effective_status,creative{source_instagram_media_id,effective_instagram_media_id,instagram_permalink_url}",
-        "limit": "5"
+        "fields": "id,name,effective_status,created_time,insights.date_preset(maximum){spend}",
+        "limit": "100"
       }
     },
     {
-      "nome": "CIVIC",
-      "caminho": "120250228026120207/ads",
+      "nome": "conta",
+      "caminho": "act_2492793277580773",
       "params": {
-        "fields": "name,effective_status,creative{source_instagram_media_id,effective_instagram_media_id,instagram_permalink_url}",
-        "limit": "5"
-      }
-    },
-    {
-      "nome": "hoje",
-      "caminho": "act_2492793277580773/insights",
-      "params": {
-        "level": "campaign",
-        "date_preset": "today",
-        "fields": "campaign_name,spend",
-        "limit": "20"
-      }
-    },
-    {
-      "nome": "jetta",
-      "caminho": "120251074034160207/adsets",
-      "params": {
-        "fields": "name,budget_remaining,end_time"
+        "fields": "amount_spent,balance,spend_cap,funding_source_details"
       }
     }
   ]
