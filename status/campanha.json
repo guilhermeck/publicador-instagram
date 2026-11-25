@@ -1,8 +1,97 @@
 {
-  "id": "semana-pausa-civic",
+  "id": "semana-tcross-wa",
   "acao": "atualizar",
-  "objeto": "120250228026120207",
+  "objeto": "120251124635500207",
   "campos": {
-    "status": "PAUSED"
+    "lifetime_budget": 5000,
+    "targeting": {
+      "geo_locations": {
+        "cities": [
+          {
+            "key": "272231",
+            "radius": 17,
+            "distance_unit": "kilometer"
+          },
+          {
+            "key": "255118",
+            "radius": 17,
+            "distance_unit": "kilometer"
+          },
+          {
+            "key": "266434",
+            "radius": 17,
+            "distance_unit": "kilometer"
+          },
+          {
+            "key": "272400",
+            "radius": 17,
+            "distance_unit": "kilometer"
+          },
+          {
+            "key": "261983",
+            "radius": 17,
+            "distance_unit": "kilometer"
+          },
+          {
+            "key": "250463",
+            "radius": 17,
+            "distance_unit": "kilometer"
+          },
+          {
+            "key": "273866",
+            "radius": 17,
+            "distance_unit": "kilometer"
+          }
+        ],
+        "location_types": [
+          "home",
+          "recent"
+        ]
+      },
+      "age_min": 25,
+      "age_max": 60,
+      "flexible_spec": [
+        {
+          "interests": [
+            {
+              "id": "6003284404179",
+              "name": "Concessionária"
+            },
+            {
+              "id": "6003257869482",
+              "name": "Carro usado"
+            },
+            {
+              "id": "6003176678152",
+              "name": "Automóveis"
+            },
+            {
+              "id": "6003304473660",
+              "name": "SUVs"
+            },
+            {
+              "id": "6003397270041",
+              "name": "Sedã"
+            },
+            {
+              "id": "6003144341584",
+              "name": "Volkswagen"
+            },
+            {
+              "id": "6003196950924",
+              "name": "Honda"
+            },
+            {
+              "id": "6003289328010",
+              "name": "carro para família"
+            }
+          ]
+        }
+      ],
+      "targeting_automation": {
+        "advantage_audience": 0
+      }
+    },
+    "name": "T-Cross WhatsApp - 7 cidades - compradores"
   }
 }
