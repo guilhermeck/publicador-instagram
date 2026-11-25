@@ -1,10 +1,9 @@
 {
-  "id": "alfa-teto-civic",
+  "id": "alfa-pausa-jeep",
   "acao": "atualizar",
-  "objeto": "120250228026120207",
+  "objeto": "120250228182490207",
   "campos": {
-    "spend_cap": 164272,
-    "daily_budget": 2000
+    "status": "PAUSED"
   },
-  "conferir": "name,daily_budget,spend_cap,effective_status"
+  "conferir": "name,status,effective_status"
 }
