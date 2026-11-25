@@ -1,5 +1,5 @@
 {
-  "id": "barbosa-s3",
+  "id": "barbosa-s4",
   "acao": "criar",
   "conta": "act_24604313859170722",
   "campanha_id": "120257816676650011",
@@ -9,9 +9,9 @@
     "special_ad_categories": []
   },
   "conjunto": {
-    "name": "Semana 3 (08-12/12) - Views e seguidores",
-    "start_time": "2026-12-08T07:00:00-0300",
-    "end_time": "2026-12-12T19:00:00-0300",
+    "name": "Semana 4 (15-19/12) - Views e seguidores",
+    "start_time": "2026-12-15T07:00:00-0300",
+    "end_time": "2026-12-19T19:00:00-0300",
     "billing_event": "IMPRESSIONS",
     "bid_strategy": "LOWEST_COST_WITHOUT_CAP",
     "lifetime_budget": 6000,
@@ -114,12 +114,12 @@
     }
   },
   "criativo": {
-    "name": "Reels 24/11 - engajamento S3",
+    "name": "Reels 24/11 - engajamento S4",
     "object_id": "695345473656189",
     "instagram_user_id": "17841474935700646",
     "source_instagram_media_id": "17957108307288210"
   },
   "anuncio": {
-    "name": "Reels 24/11 - engajamento S3"
+    "name": "Reels 24/11 - engajamento S4"
   }
 }
