@@ -1,39 +1,22 @@
 {
-  "id": "alfa-metricas-075649",
+  "id": "alfa-cap-080341",
   "chamadas": [
     {
-      "nome": "c7",
-      "caminho": "act_2492793277580773/insights",
-      "params": {
-        "level": "campaign",
-        "date_preset": "last_7d",
-        "fields": "campaign_name,spend,impressions,reach,frequency,ctr,cpm,actions,cost_per_action_type",
-        "limit": "50"
-      }
-    },
-    {
-      "nome": "cmes",
-      "caminho": "act_2492793277580773/insights",
-      "params": {
-        "level": "campaign",
-        "time_range": "{\"since\":\"2026-11-01\",\"until\":\"2026-11-24\"}",
-        "fields": "campaign_name,spend,impressions,reach,frequency,ctr,cpm,actions,cost_per_action_type",
-        "limit": "50"
-      }
-    },
-    {
-      "nome": "conta",
-      "caminho": "act_2492793277580773",
-      "params": {
-        "fields": "balance,amount_spent,spend_cap,funding_source_details"
-      }
-    },
-    {
-      "nome": "camps",
+      "nome": "c",
       "caminho": "act_2492793277580773/campaigns",
       "params": {
-        "fields": "name,effective_status,daily_budget,lifetime_budget,stop_time",
+        "fields": "id,name,daily_budget,spend_cap,effective_status",
         "limit": "50"
+      }
+    },
+    {
+      "nome": "i",
+      "caminho": "act_2492793277580773/insights",
+      "params": {
+        "level": "campaign",
+        "date_preset": "maximum",
+        "fields": "campaign_id,campaign_name,spend",
+        "limit": "100"
       }
     }
   ]
