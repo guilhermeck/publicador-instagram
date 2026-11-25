@@ -1,9 +1,10 @@
 {
-  "id": "barbosa-pausa-3",
+  "id": "alfa-teto-polo",
   "acao": "atualizar",
-  "objeto": "120257816709320011",
+  "objeto": "120250228414240207",
   "campos": {
-    "status": "PAUSED"
+    "spend_cap": 163285,
+    "daily_budget": 2000
   },
-  "conferir": "status"
+  "conferir": "name,daily_budget,spend_cap,effective_status"
 }
