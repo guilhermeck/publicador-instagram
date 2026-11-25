@@ -1,33 +1,18 @@
 {
-  "id": "alfa-msg-164941",
+  "id": "barbosa-teste-220230",
   "chamadas": [
     {
-      "nome": "dia",
-      "caminho": "act_2492793277580773/insights",
+      "nome": "ig",
+      "caminho": "17841474935700646",
       "params": {
-        "time_range": "{\"since\":\"2026-11-14\",\"until\":\"2026-11-23\"}",
-        "time_increment": "1",
-        "fields": "spend"
+        "fields": "username,name,biography,followers_count,media_count"
       }
     },
     {
-      "nome": "c7",
-      "caminho": "act_2492793277580773/insights",
+      "nome": "lim",
+      "caminho": "17841474935700646/content_publishing_limit",
       "params": {
-        "level": "campaign",
-        "date_preset": "last_7d",
-        "fields": "campaign_name,spend,impressions,reach,actions,cost_per_action_type",
-        "limit": "50"
-      }
-    },
-    {
-      "nome": "cnov",
-      "caminho": "act_2492793277580773/insights",
-      "params": {
-        "level": "campaign",
-        "time_range": "{\"since\":\"2026-11-01\",\"until\":\"2026-11-23\"}",
-        "fields": "campaign_name,spend,impressions,reach,actions,cost_per_action_type",
-        "limit": "50"
+        "fields": "quota_usage"
       }
     }
   ]
