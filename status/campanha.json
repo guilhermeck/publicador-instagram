@@ -1,22 +1,26 @@
 {
-  "id": "semana-tcross-eng",
+  "id": "semana-polo-wa",
   "acao": "criar",
   "conta": "act_2492793277580773",
-  "campanha_id": "120251124634350207",
   "campanha": {
-    "name": "x",
+    "name": "Polo - semana 25 a 29/11 (WhatsApp + seguidores)",
     "objective": "OUTCOME_ENGAGEMENT",
-    "special_ad_categories": []
+    "special_ad_categories": [],
+    "buying_type": "AUCTION"
   },
   "conjunto": {
     "start_time": "2026-11-25T08:40:00-0300",
     "end_time": "2026-11-29T23:59:00-0300",
     "billing_event": "IMPRESSIONS",
     "bid_strategy": "LOWEST_COST_WITHOUT_CAP",
-    "name": "T-Cross Views e seguidores - 7 cidades",
-    "lifetime_budget": 3000,
-    "optimization_goal": "POST_ENGAGEMENT",
-    "destination_type": "ON_POST",
+    "name": "Polo WhatsApp - 7 cidades - compradores",
+    "lifetime_budget": 5000,
+    "optimization_goal": "CONVERSATIONS",
+    "destination_type": "WHATSAPP",
+    "promoted_object": {
+      "page_id": "114024880297153",
+      "whatsapp_phone_number": "554288056270"
+    },
     "targeting": {
       "geo_locations": {
         "cities": [
@@ -103,30 +107,23 @@
       ],
       "targeting_automation": {
         "advantage_audience": 0
-      },
-      "publisher_platforms": [
-        "instagram"
-      ],
-      "instagram_positions": [
-        "stream",
-        "reels",
-        "story"
-      ]
+      }
     }
   },
   "criativo": {
-    "name": "T-Cross - Ver perfil",
+    "name": "Polo - WhatsApp",
     "object_id": "114024880297153",
     "instagram_user_id": "17841439724629419",
-    "source_instagram_media_id": "17946526068363878",
+    "source_instagram_media_id": "18096676502371916",
     "call_to_action": {
-      "type": "VIEW_INSTAGRAM_PROFILE",
+      "type": "WHATSAPP_MESSAGE",
       "value": {
-        "link": "https://www.instagram.com/alfaveiculostb/"
+        "app_destination": "WHATSAPP",
+        "link": "https://api.whatsapp.com/send"
       }
     }
   },
   "anuncio": {
-    "name": "T-Cross - Ver perfil"
+    "name": "Polo - WhatsApp"
   }
 }
