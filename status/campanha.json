@@ -1,10 +1,9 @@
 {
-  "id": "barbosa-cta-ativar",
-  "acao": "ativar",
-  "ids": [
-    "120257816834280011",
-    "120257816836570011",
-    "120257816837960011",
-    "120257816839130011"
-  ]
+  "id": "barbosa-pausa-0",
+  "acao": "atualizar",
+  "objeto": "120257816692350011",
+  "campos": {
+    "status": "PAUSED"
+  },
+  "conferir": "status"
 }
