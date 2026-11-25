@@ -1,19 +1,23 @@
 {
-  "id": "alfa-total-082031",
+  "id": "alfa-hoje-090113",
   "chamadas": [
     {
-      "nome": "c",
-      "caminho": "act_2492793277580773/campaigns",
+      "nome": "i",
+      "caminho": "act_2492793277580773/insights",
       "params": {
-        "fields": "id,name,effective_status,created_time,insights.date_preset(maximum){spend}",
-        "limit": "100"
+        "level": "campaign",
+        "date_preset": "today",
+        "fields": "campaign_name,spend,impressions,reach,actions",
+        "limit": "30"
       }
     },
     {
-      "nome": "conta",
-      "caminho": "act_2492793277580773",
+      "nome": "ads",
+      "caminho": "act_2492793277580773/ads",
       "params": {
-        "fields": "amount_spent,balance,spend_cap,funding_source_details"
+        "fields": "name,effective_status",
+        "effective_status": "[\"ACTIVE\",\"IN_PROCESS\",\"PENDING_REVIEW\",\"WITH_ISSUES\",\"DISAPPROVED\"]",
+        "limit": "30"
       }
     }
   ]
