@@ -1,7 +1,7 @@
 {
-  "id": "alfa-semana-polo",
+  "id": "alfa-semana-civic",
   "acao": "atualizar",
-  "objeto": "120250228414240207",
+  "objeto": "120250228026120207",
   "campos": {
     "daily_budget": 2000,
     "stop_time": "2026-11-29T23:59:00-0300"
