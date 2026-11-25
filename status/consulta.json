@@ -1,122 +1,12 @@
 {
-  "id": "barbosa-prep-221414",
+  "id": "barbosa-conf-222324",
   "chamadas": [
     {
-      "nome": "i_Pneu",
-      "caminho": "search",
+      "nome": "a",
+      "caminho": "act_24604313859170722/adsets",
       "params": {
-        "type": "adinterest",
-        "q": "Pneu",
-        "locale": "pt_BR",
-        "limit": "3"
-      }
-    },
-    {
-      "nome": "i_Borracharia",
-      "caminho": "search",
-      "params": {
-        "type": "adinterest",
-        "q": "Borracharia",
-        "locale": "pt_BR",
-        "limit": "3"
-      }
-    },
-    {
-      "nome": "i_Manutenção automotiva",
-      "caminho": "search",
-      "params": {
-        "type": "adinterest",
-        "q": "Manutenção automotiva",
-        "locale": "pt_BR",
-        "limit": "3"
-      }
-    },
-    {
-      "nome": "i_Automóveis",
-      "caminho": "search",
-      "params": {
-        "type": "adinterest",
-        "q": "Automóveis",
-        "locale": "pt_BR",
-        "limit": "3"
-      }
-    },
-    {
-      "nome": "i_Caminhões",
-      "caminho": "search",
-      "params": {
-        "type": "adinterest",
-        "q": "Caminhões",
-        "locale": "pt_BR",
-        "limit": "3"
-      }
-    },
-    {
-      "nome": "i_Motocicletas",
-      "caminho": "search",
-      "params": {
-        "type": "adinterest",
-        "q": "Motocicletas",
-        "locale": "pt_BR",
-        "limit": "3"
-      }
-    },
-    {
-      "nome": "i_Oficina mecânica",
-      "caminho": "search",
-      "params": {
-        "type": "adinterest",
-        "q": "Oficina mecânica",
-        "locale": "pt_BR",
-        "limit": "3"
-      }
-    },
-    {
-      "nome": "i_Peças automotivas",
-      "caminho": "search",
-      "params": {
-        "type": "adinterest",
-        "q": "Peças automotivas",
-        "locale": "pt_BR",
-        "limit": "3"
-      }
-    },
-    {
-      "nome": "owned",
-      "caminho": "1127439313221080/owned_pages",
-      "params": {
-        "fields": "id,name,instagram_business_account,whatsapp_number",
-        "limit": "100"
-      }
-    },
-    {
-      "nome": "client",
-      "caminho": "1127439313221080/client_pages",
-      "params": {
-        "fields": "id,name,instagram_business_account,whatsapp_number",
-        "limit": "100"
-      }
-    },
-    {
-      "nome": "tz",
-      "caminho": "act_24604313859170722",
-      "params": {
-        "fields": "timezone_name,owner,business"
-      }
-    },
-    {
-      "nome": "promo",
-      "caminho": "act_24604313859170722/promote_pages",
-      "params": {
-        "fields": "id,name,instagram_business_account,whatsapp_number"
-      }
-    },
-    {
-      "nome": "reel",
-      "caminho": "17841474935700646/media",
-      "params": {
-        "fields": "id,permalink",
-        "limit": "1"
+        "fields": "name,lifetime_budget,daily_budget,start_time,end_time,effective_status,campaign{name}",
+        "limit": "20"
       }
     }
   ]
