@@ -1,132 +1,18 @@
 {
-  "id": "semana-civic-eng",
-  "acao": "criar",
-  "conta": "act_2492793277580773",
-  "campanha_id": "120251124736820207",
-  "campanha": {
-    "name": "x",
-    "objective": "OUTCOME_ENGAGEMENT",
-    "special_ad_categories": []
-  },
-  "conjunto": {
-    "start_time": "2026-11-25T08:40:00-0300",
-    "end_time": "2026-11-29T23:59:00-0300",
-    "billing_event": "IMPRESSIONS",
-    "bid_strategy": "LOWEST_COST_WITHOUT_CAP",
-    "name": "Civic Views e seguidores - 7 cidades",
-    "lifetime_budget": 3000,
-    "optimization_goal": "POST_ENGAGEMENT",
-    "destination_type": "ON_POST",
-    "targeting": {
-      "geo_locations": {
-        "cities": [
-          {
-            "key": "272231",
-            "radius": 17,
-            "distance_unit": "kilometer"
-          },
-          {
-            "key": "255118",
-            "radius": 17,
-            "distance_unit": "kilometer"
-          },
-          {
-            "key": "266434",
-            "radius": 17,
-            "distance_unit": "kilometer"
-          },
-          {
-            "key": "272400",
-            "radius": 17,
-            "distance_unit": "kilometer"
-          },
-          {
-            "key": "261983",
-            "radius": 17,
-            "distance_unit": "kilometer"
-          },
-          {
-            "key": "250463",
-            "radius": 17,
-            "distance_unit": "kilometer"
-          },
-          {
-            "key": "273866",
-            "radius": 17,
-            "distance_unit": "kilometer"
-          }
-        ],
-        "location_types": [
-          "home",
-          "recent"
-        ]
-      },
-      "age_min": 25,
-      "age_max": 60,
-      "flexible_spec": [
-        {
-          "interests": [
-            {
-              "id": "6003284404179",
-              "name": "Concessionária"
-            },
-            {
-              "id": "6003257869482",
-              "name": "Carro usado"
-            },
-            {
-              "id": "6003176678152",
-              "name": "Automóveis"
-            },
-            {
-              "id": "6003304473660",
-              "name": "SUVs"
-            },
-            {
-              "id": "6003397270041",
-              "name": "Sedã"
-            },
-            {
-              "id": "6003144341584",
-              "name": "Volkswagen"
-            },
-            {
-              "id": "6003196950924",
-              "name": "Honda"
-            },
-            {
-              "id": "6003289328010",
-              "name": "carro para família"
-            }
-          ]
-        }
-      ],
-      "targeting_automation": {
-        "advantage_audience": 0
-      },
-      "publisher_platforms": [
-        "instagram"
-      ],
-      "instagram_positions": [
-        "stream",
-        "reels",
-        "story"
-      ]
-    }
-  },
-  "criativo": {
-    "name": "Civic - Ver perfil",
-    "object_id": "114024880297153",
-    "instagram_user_id": "17841439724629419",
-    "source_instagram_media_id": "18018768794876606",
-    "call_to_action": {
-      "type": "VIEW_INSTAGRAM_PROFILE",
-      "value": {
-        "link": "https://www.instagram.com/alfaveiculostb/"
-      }
-    }
-  },
-  "anuncio": {
-    "name": "Civic - Ver perfil"
-  }
+  "id": "semana-ativar",
+  "acao": "ativar",
+  "ids": [
+    "120251124709770207",
+    "120251124713850207",
+    "120251124727530207",
+    "120251124727970207",
+    "120251124728950207",
+    "120251124732210207",
+    "120251124733270207",
+    "120251124736820207",
+    "120251124737520207",
+    "120251124738410207",
+    "120251124742440207",
+    "120251124746360207"
+  ]
 }
