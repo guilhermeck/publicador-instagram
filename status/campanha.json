@@ -1,7 +1,8 @@
 {
-  "id": "barbosa-3",
+  "id": "barbosa-4",
   "acao": "criar",
   "conta": "act_24604313859170722",
+  "campanha_id": "120257816676650011",
   "campanha": {
     "name": "Borracharia Barbosa - Reels 24/11 (WhatsApp + seguidores)",
     "objective": "OUTCOME_ENGAGEMENT",
@@ -30,13 +31,9 @@
         ]
       }
     ],
-    "name": "WhatsApp - 6 cidades - seg a sex 7h-19h",
-    "optimization_goal": "CONVERSATIONS",
-    "destination_type": "WHATSAPP",
-    "promoted_object": {
-      "page_id": "695345473656189",
-      "whatsapp_phone_number": "5542988299836"
-    },
+    "name": "Views e seguidores - Instagram - 6 cidades - seg a sex",
+    "optimization_goal": "POST_ENGAGEMENT",
+    "destination_type": "ON_POST",
     "targeting": {
       "geo_locations": {
         "cities": [
@@ -106,23 +103,25 @@
       ],
       "targeting_automation": {
         "advantage_audience": 0
-      }
+      },
+      "publisher_platforms": [
+        "instagram"
+      ],
+      "instagram_positions": [
+        "stream",
+        "reels",
+        "story",
+        "explore"
+      ]
     }
   },
   "criativo": {
-    "name": "Reels 24/11 - WhatsApp",
+    "name": "Reels 24/11 - engajamento",
     "object_id": "695345473656189",
     "instagram_user_id": "17841474935700646",
-    "source_instagram_media_id": "17957108307288210",
-    "call_to_action": {
-      "type": "WHATSAPP_MESSAGE",
-      "value": {
-        "app_destination": "WHATSAPP",
-        "link": "https://api.whatsapp.com/send"
-      }
-    }
+    "source_instagram_media_id": "17957108307288210"
   },
   "anuncio": {
-    "name": "Reels 24/11 - WhatsApp"
+    "name": "Reels 24/11 - engajamento"
   }
 }
