@@ -1,5 +1,5 @@
 {
-  "id": "barbosa-5",
+  "id": "barbosa-7",
   "acao": "criar",
   "conta": "act_24604313859170722",
   "campanha_id": "120257816676650011",
@@ -10,9 +10,9 @@
     "buying_type": "AUCTION"
   },
   "conjunto": {
-    "name": "Views e seguidores - Instagram - 6 cidades - seg a sex",
-    "start_time": "2026-11-24T22:30:00-0300",
-    "end_time": "2026-12-22T19:00:00-0300",
+    "name": "Fase 1 - Views e seguidores - 6 cidades - seg a sex",
+    "start_time": "2026-11-24T22:35:00-0300",
+    "end_time": "2026-12-08T19:00:00-0300",
     "billing_event": "IMPRESSIONS",
     "bid_strategy": "LOWEST_COST_WITHOUT_CAP",
     "lifetime_budget": 12000,
