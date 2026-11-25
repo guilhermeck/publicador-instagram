@@ -1,23 +1,18 @@
 {
-  "id": "alfa-hoje-090113",
+  "id": "civic-conf-115101",
   "chamadas": [
     {
-      "nome": "i",
-      "caminho": "act_2492793277580773/insights",
+      "nome": "novo",
+      "caminho": "120251124736820207",
       "params": {
-        "level": "campaign",
-        "date_preset": "today",
-        "fields": "campaign_name,spend,impressions,reach,actions",
-        "limit": "30"
+        "fields": "name,effective_status,insights.date_preset(maximum){spend,actions}"
       }
     },
     {
-      "nome": "ads",
-      "caminho": "act_2492793277580773/ads",
+      "nome": "antigo",
+      "caminho": "120250228026120207",
       "params": {
-        "fields": "name,effective_status",
-        "effective_status": "[\"ACTIVE\",\"IN_PROCESS\",\"PENDING_REVIEW\",\"WITH_ISSUES\",\"DISAPPROVED\"]",
-        "limit": "30"
+        "fields": "name,effective_status,insights.date_preset(maximum){spend,actions}"
       }
     }
   ]
