@@ -1,9 +1,8 @@
 {
-  "id": "tcross-ativar",
-  "acao": "ativar",
-  "ids": [
-    "120251124634350207",
-    "120251124635500207",
-    "120251124641330207"
-  ]
+  "id": "semana-pausa-polo",
+  "acao": "atualizar",
+  "objeto": "120250228414240207",
+  "campos": {
+    "status": "PAUSED"
+  }
 }
