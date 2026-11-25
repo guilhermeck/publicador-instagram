@@ -1,52 +1,34 @@
 {
-  "id": "alfa-cap2-080408",
+  "id": "jeep-copia-080808",
   "chamadas": [
     {
-      "nome": "POLO",
-      "caminho": "120250228414240207/insights",
+      "nome": "adsets",
+      "caminho": "120250228182490207/adsets",
       "params": {
-        "date_preset": "maximum",
-        "fields": "spend"
+        "fields": "name,optimization_goal,destination_type,promoted_object,targeting,billing_event,bid_strategy"
       }
     },
     {
-      "nome": "JEEP",
-      "caminho": "120250228182490207/insights",
+      "nome": "ads",
+      "caminho": "120250228182490207/ads",
       "params": {
-        "date_preset": "maximum",
-        "fields": "spend"
+        "fields": "name,creative{object_story_spec,call_to_action_type,instagram_user_id,source_instagram_media_id,effective_instagram_media_id}",
+        "limit": "5"
       }
     },
     {
-      "nome": "CIVIC",
-      "caminho": "120250228026120207/insights",
+      "nome": "camp",
+      "caminho": "120250228182490207",
       "params": {
-        "date_preset": "maximum",
-        "fields": "spend"
+        "fields": "objective,special_ad_categories"
       }
     },
     {
-      "nome": "POLO_hoje",
-      "caminho": "120250228414240207/insights",
+      "nome": "m",
+      "caminho": "17841439724629419/media",
       "params": {
-        "date_preset": "today",
-        "fields": "spend"
-      }
-    },
-    {
-      "nome": "JEEP_hoje",
-      "caminho": "120250228182490207/insights",
-      "params": {
-        "date_preset": "today",
-        "fields": "spend"
-      }
-    },
-    {
-      "nome": "CIVIC_hoje",
-      "caminho": "120250228026120207/insights",
-      "params": {
-        "date_preset": "today",
-        "fields": "spend"
+        "fields": "id,permalink,caption,timestamp",
+        "limit": "10"
       }
     }
   ]
