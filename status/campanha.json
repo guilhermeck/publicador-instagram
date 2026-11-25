@@ -1,5 +1,5 @@
 {
-  "id": "barbosa-4",
+  "id": "barbosa-5",
   "acao": "criar",
   "conta": "act_24604313859170722",
   "campanha_id": "120257816676650011",
@@ -10,7 +10,8 @@
     "buying_type": "AUCTION"
   },
   "conjunto": {
-    "start_time": "2026-11-24T22:25:00-0300",
+    "name": "Views e seguidores - Instagram - 6 cidades - seg a sex",
+    "start_time": "2026-11-24T22:30:00-0300",
     "end_time": "2026-12-22T19:00:00-0300",
     "billing_event": "IMPRESSIONS",
     "bid_strategy": "LOWEST_COST_WITHOUT_CAP",
@@ -31,7 +32,6 @@
         ]
       }
     ],
-    "name": "Views e seguidores - Instagram - 6 cidades - seg a sex",
     "optimization_goal": "POST_ENGAGEMENT",
     "destination_type": "ON_POST",
     "targeting": {
@@ -39,32 +39,32 @@
         "cities": [
           {
             "key": "272231",
-            "radius": 15,
+            "radius": 17,
             "distance_unit": "kilometer"
           },
           {
             "key": "255118",
-            "radius": 15,
+            "radius": 17,
             "distance_unit": "kilometer"
           },
           {
             "key": "250463",
-            "radius": 15,
+            "radius": 17,
             "distance_unit": "kilometer"
           },
           {
             "key": "272400",
-            "radius": 15,
+            "radius": 17,
             "distance_unit": "kilometer"
           },
           {
             "key": "273866",
-            "radius": 15,
+            "radius": 17,
             "distance_unit": "kilometer"
           },
           {
             "key": "261983",
-            "radius": 15,
+            "radius": 17,
             "distance_unit": "kilometer"
           }
         ],
