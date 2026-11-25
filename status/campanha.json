@@ -1,7 +1,7 @@
 {
-  "id": "semana-pausa-polo",
+  "id": "semana-pausa-civic",
   "acao": "atualizar",
-  "objeto": "120250228414240207",
+  "objeto": "120250228026120207",
   "campos": {
     "status": "PAUSED"
   }
