@@ -1,22 +1,52 @@
 {
-  "id": "alfa-cap-080341",
+  "id": "alfa-cap2-080408",
   "chamadas": [
     {
-      "nome": "c",
-      "caminho": "act_2492793277580773/campaigns",
+      "nome": "POLO",
+      "caminho": "120250228414240207/insights",
       "params": {
-        "fields": "id,name,daily_budget,spend_cap,effective_status",
-        "limit": "50"
+        "date_preset": "maximum",
+        "fields": "spend"
       }
     },
     {
-      "nome": "i",
-      "caminho": "act_2492793277580773/insights",
+      "nome": "JEEP",
+      "caminho": "120250228182490207/insights",
       "params": {
-        "level": "campaign",
         "date_preset": "maximum",
-        "fields": "campaign_id,campaign_name,spend",
-        "limit": "100"
+        "fields": "spend"
+      }
+    },
+    {
+      "nome": "CIVIC",
+      "caminho": "120250228026120207/insights",
+      "params": {
+        "date_preset": "maximum",
+        "fields": "spend"
+      }
+    },
+    {
+      "nome": "POLO_hoje",
+      "caminho": "120250228414240207/insights",
+      "params": {
+        "date_preset": "today",
+        "fields": "spend"
+      }
+    },
+    {
+      "nome": "JEEP_hoje",
+      "caminho": "120250228182490207/insights",
+      "params": {
+        "date_preset": "today",
+        "fields": "spend"
+      }
+    },
+    {
+      "nome": "CIVIC_hoje",
+      "caminho": "120250228026120207/insights",
+      "params": {
+        "date_preset": "today",
+        "fields": "spend"
       }
     }
   ]
