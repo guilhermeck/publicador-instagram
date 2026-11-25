@@ -1,12 +1,18 @@
 {
-  "id": "barbosa-conf-222324",
+  "id": "barbosa-ver-224135",
   "chamadas": [
     {
-      "nome": "a",
-      "caminho": "act_24604313859170722/adsets",
+      "nome": "r",
+      "caminho": "17957108307288210",
       "params": {
-        "fields": "name,lifetime_budget,daily_budget,start_time,end_time,effective_status,campaign{name}",
-        "limit": "20"
+        "fields": "caption,permalink"
+      }
+    },
+    {
+      "nome": "ig",
+      "caminho": "17841474935700646",
+      "params": {
+        "fields": "username,name,biography,website"
       }
     }
   ]
