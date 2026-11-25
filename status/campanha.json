@@ -1,9 +1,9 @@
 {
-  "id": "alfa-teto-polo",
+  "id": "alfa-teto-jeep",
   "acao": "atualizar",
-  "objeto": "120250228414240207",
+  "objeto": "120250228182490207",
   "campos": {
-    "spend_cap": 163285,
+    "spend_cap": 163515,
     "daily_budget": 2000
   },
   "conferir": "name,daily_budget,spend_cap,effective_status"
