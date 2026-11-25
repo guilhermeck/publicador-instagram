@@ -1,9 +1,22 @@
 {
-  "id": "semana-tcross-wa",
-  "acao": "atualizar",
-  "objeto": "120251124635500207",
-  "campos": {
-    "lifetime_budget": 5000,
+  "id": "semana-tcross-eng",
+  "acao": "criar",
+  "conta": "act_2492793277580773",
+  "campanha_id": "120251124634350207",
+  "campanha": {
+    "name": "x",
+    "objective": "OUTCOME_ENGAGEMENT",
+    "special_ad_categories": []
+  },
+  "conjunto": {
+    "start_time": "2026-11-25T08:40:00-0300",
+    "end_time": "2026-11-29T23:59:00-0300",
+    "billing_event": "IMPRESSIONS",
+    "bid_strategy": "LOWEST_COST_WITHOUT_CAP",
+    "name": "T-Cross Views e seguidores - 7 cidades",
+    "lifetime_budget": 3000,
+    "optimization_goal": "POST_ENGAGEMENT",
+    "destination_type": "ON_POST",
     "targeting": {
       "geo_locations": {
         "cities": [
@@ -90,8 +103,30 @@
       ],
       "targeting_automation": {
         "advantage_audience": 0
+      },
+      "publisher_platforms": [
+        "instagram"
+      ],
+      "instagram_positions": [
+        "stream",
+        "reels",
+        "story"
+      ]
+    }
+  },
+  "criativo": {
+    "name": "T-Cross - Ver perfil",
+    "object_id": "114024880297153",
+    "instagram_user_id": "17841439724629419",
+    "source_instagram_media_id": "17946526068363878",
+    "call_to_action": {
+      "type": "VIEW_INSTAGRAM_PROFILE",
+      "value": {
+        "link": "https://www.instagram.com/alfaveiculostb/"
       }
-    },
-    "name": "T-Cross WhatsApp - 7 cidades - compradores"
+    }
+  },
+  "anuncio": {
+    "name": "T-Cross - Ver perfil"
   }
 }
