@@ -1,7 +1,7 @@
 {
-  "id": "geo-regiao2-500207",
+  "id": "geo-regiao2-020207",
   "acao": "atualizar",
-  "objeto": "120251124635500207",
+  "objeto": "120251074038020207",
   "campos": {
     "targeting": {
       "age_max": 65,
@@ -14,32 +14,16 @@
               "name": "Volkswagen (veículo)"
             },
             {
-              "id": "6003176678152",
-              "name": "Automóveis (veículos)"
-            },
-            {
-              "id": "6003196950924",
-              "name": "Honda (veículos)"
-            },
-            {
-              "id": "6003257869482",
-              "name": "Carro usado (veículo)"
-            },
-            {
               "id": "6003284404179",
               "name": "Concessionária (varejista)"
             },
             {
-              "id": "6003289328010",
-              "name": "carro para família (automóveis)"
+              "id": "6003291737802",
+              "name": "Volkswagen Jetta"
             },
             {
-              "id": "6003304473660",
-              "name": "SUVs (veículos)"
-            },
-            {
-              "id": "6003397270041",
-              "name": "Sedã (automóvel)"
+              "id": "6832284024121",
+              "name": "Sites de vendas de veículos (sites)"
             }
           ]
         }
