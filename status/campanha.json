@@ -1,7 +1,8 @@
 {
-  "id": "fechames-1",
+  "id": "fechames-2",
   "acao": "criar",
   "conta": "act_2492793277580773",
+  "campanha_id": "120251135085800207",
   "campanha": {
     "name": "FECHA MÊS Alfa Veículos - 25 a 30/11 (R$1.000)",
     "objective": "OUTCOME_ENGAGEMENT",
@@ -13,14 +14,10 @@
     "end_time": "2026-11-30T23:59:00-0300",
     "billing_event": "IMPRESSIONS",
     "bid_strategy": "LOWEST_COST_WITHOUT_CAP",
-    "name": "Fecha mês - WhatsApp - 8 cidades - compradores",
-    "lifetime_budget": 75000,
-    "optimization_goal": "CONVERSATIONS",
-    "destination_type": "WHATSAPP",
-    "promoted_object": {
-      "page_id": "114024880297153",
-      "whatsapp_phone_number": "554288056270"
-    },
+    "name": "Fecha mês - Alcance e views - Instagram - 8 cidades",
+    "lifetime_budget": 25000,
+    "optimization_goal": "POST_ENGAGEMENT",
+    "destination_type": "ON_POST",
     "targeting": {
       "geo_locations": {
         "cities": [
@@ -70,8 +67,8 @@
           "recent"
         ]
       },
-      "age_min": 22,
-      "age_max": 60,
+      "age_min": 18,
+      "age_max": 65,
       "flexible_spec": [
         {
           "interests": [
@@ -132,23 +129,30 @@
       ],
       "targeting_automation": {
         "advantage_audience": 0
-      }
+      },
+      "publisher_platforms": [
+        "instagram"
+      ],
+      "instagram_positions": [
+        "stream",
+        "reels",
+        "story"
+      ]
     }
   },
   "criativo": {
-    "name": "Fecha mês - WhatsApp",
+    "name": "Fecha mês - Ver perfil",
     "object_id": "114024880297153",
     "instagram_user_id": "17841439724629419",
     "source_instagram_media_id": "18135437428683245",
     "call_to_action": {
-      "type": "WHATSAPP_MESSAGE",
+      "type": "VIEW_INSTAGRAM_PROFILE",
       "value": {
-        "app_destination": "WHATSAPP",
-        "link": "https://api.whatsapp.com/send"
+        "link": "https://www.instagram.com/alfaveiculostb/"
       }
     }
   },
   "anuncio": {
-    "name": "Fecha mês - WhatsApp"
+    "name": "Fecha mês - Ver perfil"
   }
 }
