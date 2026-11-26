@@ -1,37 +1,26 @@
 {
-  "id": "polo-sobra-230616",
+  "id": "castro-230644",
   "chamadas": [
     {
-      "nome": "polo",
-      "caminho": "120251124727530207",
+      "nome": "c",
+      "caminho": "search",
       "params": {
-        "fields": "name,effective_status,status,insights.date_preset(maximum){spend}"
+        "type": "adgeolocation",
+        "location_types": "[\"city\"]",
+        "q": "Castro Paraná",
+        "country_code": "BR",
+        "limit": "10"
       }
     },
     {
-      "nome": "m",
-      "caminho": "17841439724629419/media",
-      "params": {
-        "fields": "id,permalink,media_type,media_product_type,caption,timestamp",
-        "limit": "12"
-      }
-    },
-    {
-      "nome": "castro",
+      "nome": "c2",
       "caminho": "search",
       "params": {
         "type": "adgeolocation",
         "location_types": "[\"city\"]",
         "q": "Castro",
         "country_code": "BR",
-        "region_id": "453"
-      }
-    },
-    {
-      "nome": "conta",
-      "caminho": "act_2492793277580773",
-      "params": {
-        "fields": "amount_spent,spend_cap,funding_source_details{display_string}"
+        "limit": "15"
       }
     }
   ]
