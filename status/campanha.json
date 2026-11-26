@@ -1,7 +1,7 @@
 {
-  "id": "otim-wa-570207",
+  "id": "geo-regiao-910207",
   "acao": "atualizar",
-  "objeto": "120251135248570207",
+  "objeto": "120251135085910207",
   "campos": {
     "targeting": {
       "age_max": 65,
@@ -50,6 +50,10 @@
               "name": "FIAT"
             },
             {
+              "id": "6003353550130",
+              "name": "Motocicletas (veículos)"
+            },
+            {
               "id": "6003397270041",
               "name": "Sedã (automóvel)"
             },
@@ -63,43 +67,72 @@
       "geo_locations": {
         "cities": [
           {
-            "distance_unit": "kilometer",
-            "key": "248455",
-            "radius": 17
-          },
-          {
-            "distance_unit": "kilometer",
-            "key": "250463",
-            "radius": 17
-          },
-          {
-            "distance_unit": "kilometer",
-            "key": "261983",
-            "radius": 17
-          },
-          {
-            "distance_unit": "kilometer",
-            "key": "266434",
-            "radius": 17
-          },
-          {
-            "distance_unit": "kilometer",
             "key": "272231",
-            "radius": 17
+            "radius": 30,
+            "distance_unit": "kilometer"
           },
           {
-            "distance_unit": "kilometer",
+            "key": "255118",
+            "radius": 30,
+            "distance_unit": "kilometer"
+          },
+          {
+            "key": "261983",
+            "radius": 30,
+            "distance_unit": "kilometer"
+          },
+          {
+            "key": "250463",
+            "radius": 30,
+            "distance_unit": "kilometer"
+          },
+          {
             "key": "272400",
-            "radius": 17
+            "radius": 30,
+            "distance_unit": "kilometer"
           },
           {
-            "distance_unit": "kilometer",
             "key": "273866",
-            "radius": 17
+            "radius": 30,
+            "distance_unit": "kilometer"
+          },
+          {
+            "key": "248455",
+            "radius": 30,
+            "distance_unit": "kilometer"
+          },
+          {
+            "key": "264635",
+            "radius": 30,
+            "distance_unit": "kilometer"
+          },
+          {
+            "key": "266434",
+            "radius": 30,
+            "distance_unit": "kilometer"
+          },
+          {
+            "key": "254780",
+            "radius": 30,
+            "distance_unit": "kilometer"
+          },
+          {
+            "key": "253097",
+            "radius": 30,
+            "distance_unit": "kilometer"
+          },
+          {
+            "key": "270340",
+            "radius": 30,
+            "distance_unit": "kilometer"
+          },
+          {
+            "key": "2685381",
+            "radius": 30,
+            "distance_unit": "kilometer"
           }
         ],
         "location_types": [
-          "frequently_in",
           "home",
           "recent"
         ]
