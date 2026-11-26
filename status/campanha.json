@@ -1,144 +1,15 @@
 {
-  "id": "barbosa-wa-s4",
-  "acao": "criar",
-  "conta": "act_24604313859170722",
-  "campanha": {
-    "name": "Borracharia Barbosa - WhatsApp (cliques) - R$60/semana",
-    "objective": "OUTCOME_TRAFFIC",
-    "special_ad_categories": [],
-    "buying_type": "AUCTION"
-  },
-  "conjunto": {
-    "name": "Semana 4 (15-19/12) - WhatsApp",
-    "start_time": "2026-12-15T07:00:00-0300",
-    "end_time": "2026-12-19T19:00:00-0300",
-    "billing_event": "IMPRESSIONS",
-    "bid_strategy": "LOWEST_COST_WITHOUT_CAP",
-    "lifetime_budget": 6000,
-    "pacing_type": [
-      "day_parting"
-    ],
-    "adset_schedule": [
-      {
-        "start_minute": 420,
-        "end_minute": 1140,
-        "days": [
-          1,
-          2,
-          3,
-          4,
-          5
-        ]
-      }
-    ],
-    "optimization_goal": "LINK_CLICKS",
-    "destination_type": "WEBSITE",
-    "targeting": {
-      "geo_locations": {
-        "cities": [
-          {
-            "key": "272231",
-            "radius": 17,
-            "distance_unit": "kilometer"
-          },
-          {
-            "key": "255118",
-            "radius": 17,
-            "distance_unit": "kilometer"
-          },
-          {
-            "key": "250463",
-            "radius": 17,
-            "distance_unit": "kilometer"
-          },
-          {
-            "key": "272400",
-            "radius": 17,
-            "distance_unit": "kilometer"
-          },
-          {
-            "key": "273866",
-            "radius": 17,
-            "distance_unit": "kilometer"
-          },
-          {
-            "key": "261983",
-            "radius": 17,
-            "distance_unit": "kilometer"
-          },
-          {
-            "key": "256309",
-            "radius": 17,
-            "distance_unit": "kilometer"
-          },
-          {
-            "key": "242519",
-            "radius": 17,
-            "distance_unit": "kilometer"
-          },
-          {
-            "key": "254780",
-            "radius": 17,
-            "distance_unit": "kilometer"
-          },
-          {
-            "key": "253097",
-            "radius": 17,
-            "distance_unit": "kilometer"
-          }
-        ],
-        "location_types": [
-          "home",
-          "recent"
-        ]
-      },
-      "age_min": 18,
-      "age_max": 65,
-      "flexible_spec": [
-        {
-          "interests": [
-            {
-              "id": "6002968386892",
-              "name": "pneu"
-            },
-            {
-              "id": "6003176678152",
-              "name": "Automóveis"
-            },
-            {
-              "id": "6003109384433",
-              "name": "mecânico de automóveis"
-            },
-            {
-              "id": "6003092882217",
-              "name": "Caminhões"
-            },
-            {
-              "id": "6003353550130",
-              "name": "Motocicletas"
-            }
-          ]
-        }
-      ],
-      "targeting_automation": {
-        "advantage_audience": 0
-      }
-    }
-  },
-  "criativo": {
-    "name": "Reels 24/11 - Fale conosco S4",
-    "object_id": "695345473656189",
-    "instagram_user_id": "17841474935700646",
-    "source_instagram_media_id": "17957108307288210",
-    "call_to_action": {
-      "type": "CONTACT_US",
-      "value": {
-        "link": "https://wa.me/5542988299836"
-      }
-    }
-  },
-  "anuncio": {
-    "name": "Semana 4 - WhatsApp"
-  },
-  "campanha_id": "120257838114070011"
+  "id": "barbosa-wa-ativar",
+  "acao": "ativar",
+  "ids": [
+    "120257838114070011",
+    "120257838114220011",
+    "120257838114710011",
+    "120257838123200011",
+    "120257838123660011",
+    "120257838126240011",
+    "120257838127750011",
+    "120257838134100011",
+    "120257838135220011"
+  ]
 }
