@@ -1,18 +1,37 @@
 {
-  "id": "civic-conf-115101",
+  "id": "fechames-prep-224127",
   "chamadas": [
     {
-      "nome": "novo",
-      "caminho": "120251124736820207",
+      "nome": "m",
+      "caminho": "17841439724629419/media",
       "params": {
-        "fields": "name,effective_status,insights.date_preset(maximum){spend,actions}"
+        "fields": "id,permalink,caption,timestamp",
+        "limit": "8"
       }
     },
     {
-      "nome": "antigo",
-      "caminho": "120250228026120207",
+      "nome": "maua",
+      "caminho": "search",
       "params": {
-        "fields": "name,effective_status,insights.date_preset(maximum){spend,actions}"
+        "type": "adgeolocation",
+        "location_types": "[\"city\"]",
+        "q": "Mauá da Serra",
+        "country_code": "BR"
+      }
+    },
+    {
+      "nome": "conta",
+      "caminho": "act_2492793277580773",
+      "params": {
+        "fields": "amount_spent,spend_cap,funding_source_details{display_string}"
+      }
+    },
+    {
+      "nome": "mes",
+      "caminho": "act_2492793277580773/insights",
+      "params": {
+        "time_range": "{\"since\":\"2026-11-01\",\"until\":\"2026-11-25\"}",
+        "fields": "spend"
       }
     }
   ]
