@@ -1,8 +1,9 @@
 {
-  "id": "fm2-pausa-antigo",
-  "acao": "atualizar",
-  "objeto": "120251135086690207",
-  "campos": {
-    "status": "PAUSED"
-  }
+  "id": "fm2-ativar",
+  "acao": "ativar",
+  "ids": [
+    "120251135085800207",
+    "120251135085910207",
+    "120251144007570207"
+  ]
 }
