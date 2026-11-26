@@ -1,67 +1,37 @@
 {
-  "id": "otim-231723",
+  "id": "geo-232054",
   "chamadas": [
     {
-      "nome": "120251135085910207",
-      "caminho": "120251135085910207",
+      "nome": "Ibaiti",
+      "caminho": "search",
       "params": {
-        "fields": "name,lifetime_budget,budget_remaining,optimization_goal,targeting,campaign_id"
+        "type": "adgeolocation",
+        "location_types": "[\"city\"]",
+        "q": "Ibaiti",
+        "country_code": "BR",
+        "limit": "6"
       }
     },
     {
-      "nome": "120251135087730207",
-      "caminho": "120251135087730207",
+      "nome": "Figueira Paraná",
+      "caminho": "search",
       "params": {
-        "fields": "name,lifetime_budget,budget_remaining,optimization_goal,targeting,campaign_id"
+        "type": "adgeolocation",
+        "location_types": "[\"city\"]",
+        "q": "Figueira Paraná",
+        "country_code": "BR",
+        "limit": "6"
       }
     },
     {
-      "nome": "120251124635500207",
-      "caminho": "120251124635500207",
+      "nome": "Sapopema",
+      "caminho": "search",
       "params": {
-        "fields": "name,lifetime_budget,budget_remaining,optimization_goal,targeting,campaign_id"
-      }
-    },
-    {
-      "nome": "120251124709770207",
-      "caminho": "120251124709770207",
-      "params": {
-        "fields": "name,lifetime_budget,budget_remaining,optimization_goal,targeting,campaign_id"
-      }
-    },
-    {
-      "nome": "120251074038020207",
-      "caminho": "120251074038020207",
-      "params": {
-        "fields": "name,lifetime_budget,budget_remaining,optimization_goal,targeting,campaign_id"
-      }
-    },
-    {
-      "nome": "120251074037470207",
-      "caminho": "120251074037470207",
-      "params": {
-        "fields": "name,lifetime_budget,budget_remaining,optimization_goal,targeting,campaign_id"
-      }
-    },
-    {
-      "nome": "120251135242870207",
-      "caminho": "120251135242870207",
-      "params": {
-        "fields": "name,lifetime_budget,budget_remaining,optimization_goal,targeting,campaign_id"
-      }
-    },
-    {
-      "nome": "120251135248570207",
-      "caminho": "120251135248570207",
-      "params": {
-        "fields": "name,lifetime_budget,budget_remaining,optimization_goal,targeting,campaign_id"
-      }
-    },
-    {
-      "nome": "jsets",
-      "caminho": "120251074034160207/adsets",
-      "params": {
-        "fields": "id,name,lifetime_budget,budget_remaining,optimization_goal"
+        "type": "adgeolocation",
+        "location_types": "[\"city\"]",
+        "q": "Sapopema",
+        "country_code": "BR",
+        "limit": "6"
       }
     }
   ]
