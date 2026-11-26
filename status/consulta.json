@@ -1,11 +1,12 @@
 {
-  "id": "fm-conf-091634",
+  "id": "fm2-m-092240",
   "chamadas": [
     {
-      "nome": "c",
-      "caminho": "120251135085800207",
+      "nome": "m",
+      "caminho": "17841439724629419/media",
       "params": {
-        "fields": "status,effective_status,insights.date_preset(maximum){spend,actions}"
+        "fields": "id,permalink,caption",
+        "limit": "8"
       }
     }
   ]
