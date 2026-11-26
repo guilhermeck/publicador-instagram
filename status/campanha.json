@@ -1,8 +1,23 @@
 {
-  "id": "fechames-pausa",
-  "acao": "atualizar",
-  "objeto": "120251135085800207",
-  "campos": {
-    "status": "PAUSED"
+  "id": "fm2-criativo",
+  "acao": "completar",
+  "conta": "act_2492793277580773",
+  "campanha_id": "120251135085800207",
+  "conjunto_id": "120251135085910207",
+  "criativo": {
+    "name": "Fecha mês v2 - WhatsApp",
+    "object_id": "114024880297153",
+    "instagram_user_id": "17841439724629419",
+    "source_instagram_media_id": "18374737534245537",
+    "call_to_action": {
+      "type": "WHATSAPP_MESSAGE",
+      "value": {
+        "app_destination": "WHATSAPP",
+        "link": "https://api.whatsapp.com/send"
+      }
+    }
+  },
+  "anuncio": {
+    "name": "Fecha mês v2 - WhatsApp"
   }
 }
