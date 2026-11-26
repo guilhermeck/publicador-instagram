@@ -1,20 +1,20 @@
 {
-  "id": "barbosa-wa-teste",
+  "id": "barbosa-wa-s1",
   "acao": "criar",
   "conta": "act_24604313859170722",
-  "campanha_id": "120257816676650011",
   "campanha": {
-    "name": "x",
-    "objective": "OUTCOME_ENGAGEMENT",
-    "special_ad_categories": []
+    "name": "Borracharia Barbosa - WhatsApp (cliques) - R$60/semana",
+    "objective": "OUTCOME_TRAFFIC",
+    "special_ad_categories": [],
+    "buying_type": "AUCTION"
   },
   "conjunto": {
     "name": "Semana 1 (26-28/11) - WhatsApp",
-    "start_time": "2026-11-26T09:45:00-0300",
+    "start_time": "2026-11-26T09:50:00-0300",
     "end_time": "2026-11-28T19:00:00-0300",
     "billing_event": "IMPRESSIONS",
     "bid_strategy": "LOWEST_COST_WITHOUT_CAP",
-    "lifetime_budget": 4300,
+    "lifetime_budget": 4000,
     "pacing_type": [
       "day_parting"
     ],
@@ -31,12 +31,8 @@
         ]
       }
     ],
-    "optimization_goal": "CONVERSATIONS",
-    "destination_type": "WHATSAPP",
-    "promoted_object": {
-      "page_id": "695345473656189",
-      "whatsapp_phone_number": "5542988299836"
-    },
+    "optimization_goal": "LINK_CLICKS",
+    "destination_type": "WEBSITE",
     "targeting": {
       "geo_locations": {
         "cities": [
@@ -130,15 +126,14 @@
     }
   },
   "criativo": {
-    "name": "Reels 24/11 - WhatsApp",
+    "name": "Reels 24/11 - Fale conosco S1",
     "object_id": "695345473656189",
     "instagram_user_id": "17841474935700646",
     "source_instagram_media_id": "17957108307288210",
     "call_to_action": {
-      "type": "WHATSAPP_MESSAGE",
+      "type": "CONTACT_US",
       "value": {
-        "app_destination": "WHATSAPP",
-        "link": "https://api.whatsapp.com/send"
+        "link": "https://wa.me/5542988299836"
       }
     }
   },
