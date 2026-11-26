@@ -1,8 +1,154 @@
 {
-  "id": "civic-vendido",
-  "acao": "atualizar",
-  "objeto": "120251124736820207",
-  "campos": {
-    "status": "PAUSED"
+  "id": "fechames-1",
+  "acao": "criar",
+  "conta": "act_2492793277580773",
+  "campanha": {
+    "name": "FECHA MÊS Alfa Veículos - 25 a 30/11 (R$1.000)",
+    "objective": "OUTCOME_ENGAGEMENT",
+    "special_ad_categories": [],
+    "buying_type": "AUCTION"
+  },
+  "conjunto": {
+    "start_time": "2026-11-25T23:00:00-0300",
+    "end_time": "2026-11-30T23:59:00-0300",
+    "billing_event": "IMPRESSIONS",
+    "bid_strategy": "LOWEST_COST_WITHOUT_CAP",
+    "name": "Fecha mês - WhatsApp - 8 cidades - compradores",
+    "lifetime_budget": 75000,
+    "optimization_goal": "CONVERSATIONS",
+    "destination_type": "WHATSAPP",
+    "promoted_object": {
+      "page_id": "114024880297153",
+      "whatsapp_phone_number": "554288056270"
+    },
+    "targeting": {
+      "geo_locations": {
+        "cities": [
+          {
+            "key": "272231",
+            "radius": 17,
+            "distance_unit": "kilometer"
+          },
+          {
+            "key": "264635",
+            "radius": 17,
+            "distance_unit": "kilometer"
+          },
+          {
+            "key": "272400",
+            "radius": 17,
+            "distance_unit": "kilometer"
+          },
+          {
+            "key": "266434",
+            "radius": 17,
+            "distance_unit": "kilometer"
+          },
+          {
+            "key": "273866",
+            "radius": 17,
+            "distance_unit": "kilometer"
+          },
+          {
+            "key": "261983",
+            "radius": 17,
+            "distance_unit": "kilometer"
+          },
+          {
+            "key": "250463",
+            "radius": 17,
+            "distance_unit": "kilometer"
+          },
+          {
+            "key": "2685381",
+            "radius": 17,
+            "distance_unit": "kilometer"
+          }
+        ],
+        "location_types": [
+          "home",
+          "recent"
+        ]
+      },
+      "age_min": 22,
+      "age_max": 60,
+      "flexible_spec": [
+        {
+          "interests": [
+            {
+              "id": "6003284404179",
+              "name": "Concessionária"
+            },
+            {
+              "id": "6003257869482",
+              "name": "Carro usado"
+            },
+            {
+              "id": "6003176678152",
+              "name": "Automóveis"
+            },
+            {
+              "id": "6003304473660",
+              "name": "SUVs"
+            },
+            {
+              "id": "6003397270041",
+              "name": "Sedã"
+            },
+            {
+              "id": "6003289328010",
+              "name": "carro para família"
+            },
+            {
+              "id": "6003025566093",
+              "name": "Picape"
+            },
+            {
+              "id": "6003093132817",
+              "name": "Chevrolet"
+            },
+            {
+              "id": "6003144341584",
+              "name": "Volkswagen"
+            },
+            {
+              "id": "6003342603828",
+              "name": "FIAT"
+            },
+            {
+              "id": "6003527471195",
+              "name": "Hatch"
+            },
+            {
+              "id": "6003353550130",
+              "name": "Motocicletas"
+            },
+            {
+              "id": "6003196950924",
+              "name": "Honda"
+            }
+          ]
+        }
+      ],
+      "targeting_automation": {
+        "advantage_audience": 0
+      }
+    }
+  },
+  "criativo": {
+    "name": "Fecha mês - WhatsApp",
+    "object_id": "114024880297153",
+    "instagram_user_id": "17841439724629419",
+    "source_instagram_media_id": "18135437428683245",
+    "call_to_action": {
+      "type": "WHATSAPP_MESSAGE",
+      "value": {
+        "app_destination": "WHATSAPP",
+        "link": "https://api.whatsapp.com/send"
+      }
+    }
+  },
+  "anuncio": {
+    "name": "Fecha mês - WhatsApp"
   }
 }
