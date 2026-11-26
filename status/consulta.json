@@ -1,26 +1,39 @@
 {
-  "id": "castro-230644",
+  "id": "status-231517",
   "chamadas": [
     {
-      "nome": "c",
-      "caminho": "search",
+      "nome": "120251135085800207",
+      "caminho": "120251135085800207",
       "params": {
-        "type": "adgeolocation",
-        "location_types": "[\"city\"]",
-        "q": "Castro Paraná",
-        "country_code": "BR",
-        "limit": "10"
+        "fields": "name,status,effective_status,ads{name,status,effective_status,ad_review_feedback},adsets{name,status,effective_status}"
       }
     },
     {
-      "nome": "c2",
-      "caminho": "search",
+      "nome": "120251135242630207",
+      "caminho": "120251135242630207",
       "params": {
-        "type": "adgeolocation",
-        "location_types": "[\"city\"]",
-        "q": "Castro",
-        "country_code": "BR",
-        "limit": "15"
+        "fields": "name,status,effective_status,ads{name,status,effective_status,ad_review_feedback},adsets{name,status,effective_status}"
+      }
+    },
+    {
+      "nome": "120251135248470207",
+      "caminho": "120251135248470207",
+      "params": {
+        "fields": "name,status,effective_status,ads{name,status,effective_status,ad_review_feedback},adsets{name,status,effective_status}"
+      }
+    },
+    {
+      "nome": "120251124634350207",
+      "caminho": "120251124634350207",
+      "params": {
+        "fields": "name,status,effective_status,ads{name,status,effective_status,ad_review_feedback},adsets{name,status,effective_status}"
+      }
+    },
+    {
+      "nome": "120251074034160207",
+      "caminho": "120251074034160207",
+      "params": {
+        "fields": "name,status,effective_status,ads{name,status,effective_status,ad_review_feedback},adsets{name,status,effective_status}"
       }
     }
   ]
