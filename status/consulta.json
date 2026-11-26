@@ -1,45 +1,37 @@
 {
-  "id": "res-230302",
+  "id": "polo-sobra-230616",
   "chamadas": [
     {
-      "nome": "tcross",
-      "caminho": "120251124634350207/insights",
-      "params": {
-        "level": "adset",
-        "date_preset": "maximum",
-        "fields": "adset_name,spend,impressions,reach,actions,cost_per_action_type"
-      }
-    },
-    {
-      "nome": "jetta",
-      "caminho": "120251074034160207/insights",
-      "params": {
-        "level": "adset",
-        "date_preset": "maximum",
-        "fields": "adset_name,spend,impressions,reach,actions,cost_per_action_type"
-      }
-    },
-    {
       "nome": "polo",
-      "caminho": "120251124727530207/insights",
+      "caminho": "120251124727530207",
       "params": {
-        "level": "adset",
-        "date_preset": "maximum",
-        "fields": "adset_name,spend,impressions,reach,actions,cost_per_action_type"
+        "fields": "name,effective_status,status,insights.date_preset(maximum){spend}"
       }
     },
     {
-      "nome": "tc_sets",
-      "caminho": "120251124634350207/adsets",
+      "nome": "m",
+      "caminho": "17841439724629419/media",
       "params": {
-        "fields": "name,effective_status,lifetime_budget,budget_remaining,issues_info"
+        "fields": "id,permalink,media_type,media_product_type,caption,timestamp",
+        "limit": "12"
       }
     },
     {
-      "nome": "tc_ads",
-      "caminho": "120251124634350207/ads",
+      "nome": "castro",
+      "caminho": "search",
       "params": {
-        "fields": "name,effective_status,ad_review_feedback,issues_info"
+        "type": "adgeolocation",
+        "location_types": "[\"city\"]",
+        "q": "Castro",
+        "country_code": "BR",
+        "region_id": "453"
+      }
+    },
+    {
+      "nome": "conta",
+      "caminho": "act_2492793277580773",
+      "params": {
+        "fields": "amount_spent,spend_cap,funding_source_details{display_string}"
       }
     }
   ]
