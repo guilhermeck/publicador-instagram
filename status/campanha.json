@@ -1,7 +1,7 @@
 {
-  "id": "barbosa-eng-pausa-s1",
+  "id": "barbosa-eng-pausa-s2",
   "acao": "atualizar",
-  "objeto": "120257816691120011",
+  "objeto": "120257816701550011",
   "campos": {
     "status": "PAUSED"
   }
