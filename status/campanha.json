@@ -1,7 +1,7 @@
 {
-  "id": "otim-pausa-tc",
+  "id": "otim-pausa-jt",
   "acao": "atualizar",
-  "objeto": "120251124709770207",
+  "objeto": "120251074163980207",
   "campos": {
     "status": "PAUSED"
   }
