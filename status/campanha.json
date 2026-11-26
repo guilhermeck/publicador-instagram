@@ -1,12 +1,10 @@
 {
-  "id": "carrossel-alfa-ativar",
-  "acao": "ativar",
-  "ids": [
-    "120251135242630207",
-    "120251135242870207",
-    "120251135246090207",
-    "120251135248470207",
-    "120251135248570207",
-    "120251135250680207"
-  ]
+  "id": "fechames-500-wa",
+  "acao": "atualizar",
+  "objeto": "120251135085910207",
+  "campos": {
+    "lifetime_budget": 37500,
+    "end_time": "2026-11-30T20:00:00-0300"
+  },
+  "conferir": "name,lifetime_budget,end_time"
 }
