@@ -1,60 +1,20 @@
 {
-  "id": "diag-wa-092624",
+  "id": "barbosa-res-092734",
   "chamadas": [
     {
-      "nome": "car1",
-      "caminho": "120251135242870207",
+      "nome": "i",
+      "caminho": "120257816676650011/insights",
       "params": {
-        "fields": "name,effective_status,issues_info,learning_stage_info,budget_remaining,end_time,ads{name,effective_status,ad_review_feedback,issues_info}"
+        "level": "adset",
+        "date_preset": "maximum",
+        "fields": "adset_name,spend,reach,impressions,frequency,cpm,actions"
       }
     },
     {
-      "nome": "car2",
-      "caminho": "120251135248570207",
+      "nome": "ig",
+      "caminho": "17841474935700646",
       "params": {
-        "fields": "name,effective_status,issues_info,learning_stage_info,budget_remaining,end_time,ads{name,effective_status,ad_review_feedback,issues_info}"
-      }
-    },
-    {
-      "nome": "tcross",
-      "caminho": "120251124635500207",
-      "params": {
-        "fields": "name,effective_status,issues_info,learning_stage_info,budget_remaining,end_time,ads{name,effective_status,ad_review_feedback,issues_info}"
-      }
-    },
-    {
-      "nome": "fm",
-      "caminho": "120251135085910207",
-      "params": {
-        "fields": "name,effective_status,issues_info,learning_stage_info,budget_remaining,end_time,ads{name,effective_status,ad_review_feedback,issues_info}"
-      }
-    },
-    {
-      "nome": "car1_est",
-      "caminho": "120251135242870207/delivery_estimate",
-      "params": {
-        "optimization_goal": "CONVERSATIONS"
-      }
-    },
-    {
-      "nome": "car2_est",
-      "caminho": "120251135248570207/delivery_estimate",
-      "params": {
-        "optimization_goal": "CONVERSATIONS"
-      }
-    },
-    {
-      "nome": "tcross_est",
-      "caminho": "120251124635500207/delivery_estimate",
-      "params": {
-        "optimization_goal": "CONVERSATIONS"
-      }
-    },
-    {
-      "nome": "fm_est",
-      "caminho": "120251135085910207/delivery_estimate",
-      "params": {
-        "optimization_goal": "CONVERSATIONS"
+        "fields": "followers_count,media_count"
       }
     }
   ]
