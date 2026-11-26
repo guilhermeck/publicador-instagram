@@ -1,22 +1,14 @@
 {
-  "id": "otim-wa-910207",
+  "id": "otim-wa-500207",
   "acao": "atualizar",
-  "objeto": "120251135085910207",
+  "objeto": "120251124635500207",
   "campos": {
     "targeting": {
       "age_max": 65,
-      "age_min": 22,
+      "age_min": 25,
       "flexible_spec": [
         {
           "interests": [
-            {
-              "id": "6003025566093",
-              "name": "Picape (veículo)"
-            },
-            {
-              "id": "6003093132817",
-              "name": "Chevrolet"
-            },
             {
               "id": "6003144341584",
               "name": "Volkswagen (veículo)"
@@ -46,20 +38,8 @@
               "name": "SUVs (veículos)"
             },
             {
-              "id": "6003342603828",
-              "name": "FIAT"
-            },
-            {
-              "id": "6003353550130",
-              "name": "Motocicletas (veículos)"
-            },
-            {
               "id": "6003397270041",
               "name": "Sedã (automóvel)"
-            },
-            {
-              "id": "6003527471195",
-              "name": "Hatch (veículo)"
             }
           ]
         }
@@ -73,22 +53,17 @@
           },
           {
             "distance_unit": "kilometer",
+            "key": "255118",
+            "radius": 17
+          },
+          {
+            "distance_unit": "kilometer",
             "key": "261983",
             "radius": 17
           },
           {
             "distance_unit": "kilometer",
-            "key": "264635",
-            "radius": 17
-          },
-          {
-            "distance_unit": "kilometer",
             "key": "266434",
-            "radius": 17
-          },
-          {
-            "distance_unit": "kilometer",
-            "key": "2685381",
             "radius": 17
           },
           {
@@ -118,6 +93,6 @@
       },
       "user_age_unknown": false
     },
-    "lifetime_budget": 50000
+    "lifetime_budget": 7525
   }
 }
