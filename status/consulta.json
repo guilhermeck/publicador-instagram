@@ -1,35 +1,57 @@
 {
-  "id": "geo-232054",
+  "id": "geo2-233226",
   "chamadas": [
     {
-      "nome": "Ibaiti",
+      "nome": "Arapoti",
       "caminho": "search",
       "params": {
         "type": "adgeolocation",
         "location_types": "[\"city\"]",
-        "q": "Ibaiti",
+        "q": "Arapoti",
         "country_code": "BR",
         "limit": "6"
       }
     },
     {
-      "nome": "Figueira Paraná",
+      "nome": "Jaguariaíva",
       "caminho": "search",
       "params": {
         "type": "adgeolocation",
         "location_types": "[\"city\"]",
-        "q": "Figueira Paraná",
+        "q": "Jaguariaíva",
         "country_code": "BR",
         "limit": "6"
       }
     },
     {
-      "nome": "Sapopema",
+      "nome": "Wenceslau Braz",
       "caminho": "search",
       "params": {
         "type": "adgeolocation",
         "location_types": "[\"city\"]",
-        "q": "Sapopema",
+        "q": "Wenceslau Braz",
+        "country_code": "BR",
+        "limit": "6"
+      }
+    },
+    {
+      "nome": "Pinhalão",
+      "caminho": "search",
+      "params": {
+        "type": "adgeolocation",
+        "location_types": "[\"city\"]",
+        "q": "Pinhalão",
+        "country_code": "BR",
+        "limit": "6"
+      }
+    },
+    {
+      "nome": "Japira",
+      "caminho": "search",
+      "params": {
+        "type": "adgeolocation",
+        "location_types": "[\"city\"]",
+        "q": "Japira",
         "country_code": "BR",
         "limit": "6"
       }
