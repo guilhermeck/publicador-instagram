@@ -1,149 +1,60 @@
 {
-  "id": "geral-092450",
+  "id": "diag-wa-092624",
   "chamadas": [
     {
-      "nome": "Fecha Mês",
-      "caminho": "120251135085800207/insights",
+      "nome": "car1",
+      "caminho": "120251135242870207",
       "params": {
-        "date_preset": "maximum",
-        "fields": "spend,reach,impressions,actions,cost_per_action_type"
+        "fields": "name,effective_status,issues_info,learning_stage_info,budget_remaining,end_time,ads{name,effective_status,ad_review_feedback,issues_info}"
       }
     },
     {
-      "nome": "T-Cross",
-      "caminho": "120251124634350207/insights",
+      "nome": "car2",
+      "caminho": "120251135248570207",
       "params": {
-        "date_preset": "maximum",
-        "fields": "spend,reach,impressions,actions,cost_per_action_type"
+        "fields": "name,effective_status,issues_info,learning_stage_info,budget_remaining,end_time,ads{name,effective_status,ad_review_feedback,issues_info}"
       }
     },
     {
-      "nome": "Jetta",
-      "caminho": "120251074034160207/insights",
+      "nome": "tcross",
+      "caminho": "120251124635500207",
       "params": {
-        "date_preset": "maximum",
-        "fields": "spend,reach,impressions,actions,cost_per_action_type"
+        "fields": "name,effective_status,issues_info,learning_stage_info,budget_remaining,end_time,ads{name,effective_status,ad_review_feedback,issues_info}"
       }
     },
     {
-      "nome": "Carrossel 1",
-      "caminho": "120251135242630207/insights",
+      "nome": "fm",
+      "caminho": "120251135085910207",
       "params": {
-        "date_preset": "maximum",
-        "fields": "spend,reach,impressions,actions,cost_per_action_type"
+        "fields": "name,effective_status,issues_info,learning_stage_info,budget_remaining,end_time,ads{name,effective_status,ad_review_feedback,issues_info}"
       }
     },
     {
-      "nome": "Carrossel 2",
-      "caminho": "120251135248470207/insights",
+      "nome": "car1_est",
+      "caminho": "120251135242870207/delivery_estimate",
       "params": {
-        "date_preset": "maximum",
-        "fields": "spend,reach,impressions,actions,cost_per_action_type"
+        "optimization_goal": "CONVERSATIONS"
       }
     },
     {
-      "nome": "Borracharia Barbosa",
-      "caminho": "120257816676650011/insights",
+      "nome": "car2_est",
+      "caminho": "120251135248570207/delivery_estimate",
       "params": {
-        "date_preset": "maximum",
-        "fields": "spend,reach,impressions,actions,cost_per_action_type"
+        "optimization_goal": "CONVERSATIONS"
       }
     },
     {
-      "nome": "Fecha Mês_h",
-      "caminho": "120251135085800207/insights",
+      "nome": "tcross_est",
+      "caminho": "120251124635500207/delivery_estimate",
       "params": {
-        "date_preset": "today",
-        "fields": "spend,actions"
+        "optimization_goal": "CONVERSATIONS"
       }
     },
     {
-      "nome": "T-Cross_h",
-      "caminho": "120251124634350207/insights",
+      "nome": "fm_est",
+      "caminho": "120251135085910207/delivery_estimate",
       "params": {
-        "date_preset": "today",
-        "fields": "spend,actions"
-      }
-    },
-    {
-      "nome": "Jetta_h",
-      "caminho": "120251074034160207/insights",
-      "params": {
-        "date_preset": "today",
-        "fields": "spend,actions"
-      }
-    },
-    {
-      "nome": "Carrossel 1_h",
-      "caminho": "120251135242630207/insights",
-      "params": {
-        "date_preset": "today",
-        "fields": "spend,actions"
-      }
-    },
-    {
-      "nome": "Carrossel 2_h",
-      "caminho": "120251135248470207/insights",
-      "params": {
-        "date_preset": "today",
-        "fields": "spend,actions"
-      }
-    },
-    {
-      "nome": "Borracharia Barbosa_h",
-      "caminho": "120257816676650011/insights",
-      "params": {
-        "date_preset": "today",
-        "fields": "spend,actions"
-      }
-    },
-    {
-      "nome": "Fecha Mês_st",
-      "caminho": "120251135085800207",
-      "params": {
-        "fields": "effective_status"
-      }
-    },
-    {
-      "nome": "T-Cross_st",
-      "caminho": "120251124634350207",
-      "params": {
-        "fields": "effective_status"
-      }
-    },
-    {
-      "nome": "Jetta_st",
-      "caminho": "120251074034160207",
-      "params": {
-        "fields": "effective_status"
-      }
-    },
-    {
-      "nome": "Carrossel 1_st",
-      "caminho": "120251135242630207",
-      "params": {
-        "fields": "effective_status"
-      }
-    },
-    {
-      "nome": "Carrossel 2_st",
-      "caminho": "120251135248470207",
-      "params": {
-        "fields": "effective_status"
-      }
-    },
-    {
-      "nome": "Borracharia Barbosa_st",
-      "caminho": "120257816676650011",
-      "params": {
-        "fields": "effective_status"
-      }
-    },
-    {
-      "nome": "saldo",
-      "caminho": "act_2492793277580773",
-      "params": {
-        "fields": "funding_source_details{display_string}"
+        "optimization_goal": "CONVERSATIONS"
       }
     }
   ]
