@@ -1,7 +1,7 @@
 {
-  "id": "geo-regiao-570207",
+  "id": "geo-regiao2-910207",
   "acao": "atualizar",
-  "objeto": "120251135248570207",
+  "objeto": "120251135085910207",
   "campos": {
     "targeting": {
       "age_max": 65,
@@ -48,6 +48,10 @@
             {
               "id": "6003342603828",
               "name": "FIAT"
+            },
+            {
+              "id": "6003353550130",
+              "name": "Motocicletas (veículos)"
             },
             {
               "id": "6003397270041",
@@ -124,6 +128,31 @@
           },
           {
             "key": "2685381",
+            "radius": 30,
+            "distance_unit": "kilometer"
+          },
+          {
+            "key": "242519",
+            "radius": 30,
+            "distance_unit": "kilometer"
+          },
+          {
+            "key": "256309",
+            "radius": 30,
+            "distance_unit": "kilometer"
+          },
+          {
+            "key": "274511",
+            "radius": 30,
+            "distance_unit": "kilometer"
+          },
+          {
+            "key": "263913",
+            "radius": 30,
+            "distance_unit": "kilometer"
+          },
+          {
+            "key": "256415",
             "radius": 30,
             "distance_unit": "kilometer"
           }
