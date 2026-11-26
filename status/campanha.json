@@ -1,8 +1,8 @@
 {
-  "id": "ajuste-fm-nome-2",
+  "id": "ajuste-car1-2",
   "acao": "atualizar",
-  "objeto": "120251135085800207",
+  "objeto": "120251135242870207",
   "campos": {
-    "name": "FECHA MÊS Alfa Veículos - até 30/11 20h (R$500)"
+    "lifetime_budget": 13347
   }
 }
