@@ -1,15 +1,15 @@
 {
-  "id": "carrossel-alfa-1",
+  "id": "carrossel-alfa-2",
   "acao": "criar",
   "conta": "act_2492793277580773",
   "campanha": {
-    "name": "Carrossel Alfa 1 - WhatsApp - até 29/11 (sobra Polo)",
+    "name": "Carrossel Alfa 2 - WhatsApp - até 29/11 (sobra Polo)",
     "objective": "OUTCOME_ENGAGEMENT",
     "special_ad_categories": [],
     "buying_type": "AUCTION"
   },
   "conjunto": {
-    "name": "Carrossel 1 - WhatsApp - 7 cidades - compradores",
+    "name": "Carrossel 2 - WhatsApp - 7 cidades - compradores",
     "start_time": "2026-11-25T23:20:00-0300",
     "end_time": "2026-11-29T23:59:00-0300",
     "billing_event": "IMPRESSIONS",
@@ -127,10 +127,10 @@
     }
   },
   "criativo": {
-    "name": "Carrossel 1 - WhatsApp",
+    "name": "Carrossel 2 - WhatsApp",
     "object_id": "114024880297153",
     "instagram_user_id": "17841439724629419",
-    "source_instagram_media_id": "18454428529135537",
+    "source_instagram_media_id": "18110387345636790",
     "call_to_action": {
       "type": "WHATSAPP_MESSAGE",
       "value": {
@@ -140,6 +140,6 @@
     }
   },
   "anuncio": {
-    "name": "Carrossel 1 - WhatsApp"
+    "name": "Carrossel 2 - WhatsApp"
   }
 }
