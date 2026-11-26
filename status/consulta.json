@@ -1,12 +1,149 @@
 {
-  "id": "fm2-m-092240",
+  "id": "geral-092450",
   "chamadas": [
     {
-      "nome": "m",
-      "caminho": "17841439724629419/media",
+      "nome": "Fecha Mês",
+      "caminho": "120251135085800207/insights",
       "params": {
-        "fields": "id,permalink,caption",
-        "limit": "8"
+        "date_preset": "maximum",
+        "fields": "spend,reach,impressions,actions,cost_per_action_type"
+      }
+    },
+    {
+      "nome": "T-Cross",
+      "caminho": "120251124634350207/insights",
+      "params": {
+        "date_preset": "maximum",
+        "fields": "spend,reach,impressions,actions,cost_per_action_type"
+      }
+    },
+    {
+      "nome": "Jetta",
+      "caminho": "120251074034160207/insights",
+      "params": {
+        "date_preset": "maximum",
+        "fields": "spend,reach,impressions,actions,cost_per_action_type"
+      }
+    },
+    {
+      "nome": "Carrossel 1",
+      "caminho": "120251135242630207/insights",
+      "params": {
+        "date_preset": "maximum",
+        "fields": "spend,reach,impressions,actions,cost_per_action_type"
+      }
+    },
+    {
+      "nome": "Carrossel 2",
+      "caminho": "120251135248470207/insights",
+      "params": {
+        "date_preset": "maximum",
+        "fields": "spend,reach,impressions,actions,cost_per_action_type"
+      }
+    },
+    {
+      "nome": "Borracharia Barbosa",
+      "caminho": "120257816676650011/insights",
+      "params": {
+        "date_preset": "maximum",
+        "fields": "spend,reach,impressions,actions,cost_per_action_type"
+      }
+    },
+    {
+      "nome": "Fecha Mês_h",
+      "caminho": "120251135085800207/insights",
+      "params": {
+        "date_preset": "today",
+        "fields": "spend,actions"
+      }
+    },
+    {
+      "nome": "T-Cross_h",
+      "caminho": "120251124634350207/insights",
+      "params": {
+        "date_preset": "today",
+        "fields": "spend,actions"
+      }
+    },
+    {
+      "nome": "Jetta_h",
+      "caminho": "120251074034160207/insights",
+      "params": {
+        "date_preset": "today",
+        "fields": "spend,actions"
+      }
+    },
+    {
+      "nome": "Carrossel 1_h",
+      "caminho": "120251135242630207/insights",
+      "params": {
+        "date_preset": "today",
+        "fields": "spend,actions"
+      }
+    },
+    {
+      "nome": "Carrossel 2_h",
+      "caminho": "120251135248470207/insights",
+      "params": {
+        "date_preset": "today",
+        "fields": "spend,actions"
+      }
+    },
+    {
+      "nome": "Borracharia Barbosa_h",
+      "caminho": "120257816676650011/insights",
+      "params": {
+        "date_preset": "today",
+        "fields": "spend,actions"
+      }
+    },
+    {
+      "nome": "Fecha Mês_st",
+      "caminho": "120251135085800207",
+      "params": {
+        "fields": "effective_status"
+      }
+    },
+    {
+      "nome": "T-Cross_st",
+      "caminho": "120251124634350207",
+      "params": {
+        "fields": "effective_status"
+      }
+    },
+    {
+      "nome": "Jetta_st",
+      "caminho": "120251074034160207",
+      "params": {
+        "fields": "effective_status"
+      }
+    },
+    {
+      "nome": "Carrossel 1_st",
+      "caminho": "120251135242630207",
+      "params": {
+        "fields": "effective_status"
+      }
+    },
+    {
+      "nome": "Carrossel 2_st",
+      "caminho": "120251135248470207",
+      "params": {
+        "fields": "effective_status"
+      }
+    },
+    {
+      "nome": "Borracharia Barbosa_st",
+      "caminho": "120257816676650011",
+      "params": {
+        "fields": "effective_status"
+      }
+    },
+    {
+      "nome": "saldo",
+      "caminho": "act_2492793277580773",
+      "params": {
+        "fields": "funding_source_details{display_string}"
       }
     }
   ]
