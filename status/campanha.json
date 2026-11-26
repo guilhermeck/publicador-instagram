@@ -1,29 +1,61 @@
 {
-  "id": "otim-wa-020207",
+  "id": "otim-wa-870207",
   "acao": "atualizar",
-  "objeto": "120251074038020207",
+  "objeto": "120251135242870207",
   "campos": {
     "targeting": {
       "age_max": 65,
-      "age_min": 25,
+      "age_min": 22,
       "flexible_spec": [
         {
           "interests": [
             {
+              "id": "6003025566093",
+              "name": "Picape (veículo)"
+            },
+            {
+              "id": "6003093132817",
+              "name": "Chevrolet"
+            },
+            {
               "id": "6003144341584",
               "name": "Volkswagen (veículo)"
+            },
+            {
+              "id": "6003176678152",
+              "name": "Automóveis (veículos)"
+            },
+            {
+              "id": "6003196950924",
+              "name": "Honda (veículos)"
+            },
+            {
+              "id": "6003257869482",
+              "name": "Carro usado (veículo)"
             },
             {
               "id": "6003284404179",
               "name": "Concessionária (varejista)"
             },
             {
-              "id": "6003291737802",
-              "name": "Volkswagen Jetta"
+              "id": "6003289328010",
+              "name": "carro para família (automóveis)"
             },
             {
-              "id": "6832284024121",
-              "name": "Sites de vendas de veículos (sites)"
+              "id": "6003304473660",
+              "name": "SUVs (veículos)"
+            },
+            {
+              "id": "6003342603828",
+              "name": "FIAT"
+            },
+            {
+              "id": "6003397270041",
+              "name": "Sedã (automóvel)"
+            },
+            {
+              "id": "6003527471195",
+              "name": "Hatch (veículo)"
             }
           ]
         }
@@ -32,12 +64,12 @@
         "cities": [
           {
             "distance_unit": "kilometer",
-            "key": "250463",
+            "key": "248455",
             "radius": 17
           },
           {
             "distance_unit": "kilometer",
-            "key": "255118",
+            "key": "250463",
             "radius": 17
           },
           {
@@ -47,7 +79,7 @@
           },
           {
             "distance_unit": "kilometer",
-            "key": "264635",
+            "key": "266434",
             "radius": 17
           },
           {
@@ -76,7 +108,6 @@
         "advantage_audience": 1
       },
       "user_age_unknown": false
-    },
-    "lifetime_budget": 6366
+    }
   }
 }
