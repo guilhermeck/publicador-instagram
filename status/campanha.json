@@ -1,9 +1,148 @@
 {
-  "id": "fm2-ativar",
-  "acao": "ativar",
-  "ids": [
-    "120251135085800207",
-    "120251135085910207",
-    "120251144007570207"
-  ]
+  "id": "barbosa-wa-teste",
+  "acao": "criar",
+  "conta": "act_24604313859170722",
+  "campanha_id": "120257816676650011",
+  "campanha": {
+    "name": "x",
+    "objective": "OUTCOME_ENGAGEMENT",
+    "special_ad_categories": []
+  },
+  "conjunto": {
+    "name": "Semana 1 (26-28/11) - WhatsApp",
+    "start_time": "2026-11-26T09:45:00-0300",
+    "end_time": "2026-11-28T19:00:00-0300",
+    "billing_event": "IMPRESSIONS",
+    "bid_strategy": "LOWEST_COST_WITHOUT_CAP",
+    "lifetime_budget": 4300,
+    "pacing_type": [
+      "day_parting"
+    ],
+    "adset_schedule": [
+      {
+        "start_minute": 420,
+        "end_minute": 1140,
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      }
+    ],
+    "optimization_goal": "CONVERSATIONS",
+    "destination_type": "WHATSAPP",
+    "promoted_object": {
+      "page_id": "695345473656189",
+      "whatsapp_phone_number": "5542988299836"
+    },
+    "targeting": {
+      "geo_locations": {
+        "cities": [
+          {
+            "key": "272231",
+            "radius": 17,
+            "distance_unit": "kilometer"
+          },
+          {
+            "key": "255118",
+            "radius": 17,
+            "distance_unit": "kilometer"
+          },
+          {
+            "key": "250463",
+            "radius": 17,
+            "distance_unit": "kilometer"
+          },
+          {
+            "key": "272400",
+            "radius": 17,
+            "distance_unit": "kilometer"
+          },
+          {
+            "key": "273866",
+            "radius": 17,
+            "distance_unit": "kilometer"
+          },
+          {
+            "key": "261983",
+            "radius": 17,
+            "distance_unit": "kilometer"
+          },
+          {
+            "key": "256309",
+            "radius": 17,
+            "distance_unit": "kilometer"
+          },
+          {
+            "key": "242519",
+            "radius": 17,
+            "distance_unit": "kilometer"
+          },
+          {
+            "key": "254780",
+            "radius": 17,
+            "distance_unit": "kilometer"
+          },
+          {
+            "key": "253097",
+            "radius": 17,
+            "distance_unit": "kilometer"
+          }
+        ],
+        "location_types": [
+          "home",
+          "recent"
+        ]
+      },
+      "age_min": 18,
+      "age_max": 65,
+      "flexible_spec": [
+        {
+          "interests": [
+            {
+              "id": "6002968386892",
+              "name": "pneu"
+            },
+            {
+              "id": "6003176678152",
+              "name": "Automóveis"
+            },
+            {
+              "id": "6003109384433",
+              "name": "mecânico de automóveis"
+            },
+            {
+              "id": "6003092882217",
+              "name": "Caminhões"
+            },
+            {
+              "id": "6003353550130",
+              "name": "Motocicletas"
+            }
+          ]
+        }
+      ],
+      "targeting_automation": {
+        "advantage_audience": 0
+      }
+    }
+  },
+  "criativo": {
+    "name": "Reels 24/11 - WhatsApp",
+    "object_id": "695345473656189",
+    "instagram_user_id": "17841474935700646",
+    "source_instagram_media_id": "17957108307288210",
+    "call_to_action": {
+      "type": "WHATSAPP_MESSAGE",
+      "value": {
+        "app_destination": "WHATSAPP",
+        "link": "https://api.whatsapp.com/send"
+      }
+    }
+  },
+  "anuncio": {
+    "name": "Semana 1 - WhatsApp"
+  }
 }
