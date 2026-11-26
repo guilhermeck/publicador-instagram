@@ -1,37 +1,45 @@
 {
-  "id": "fechames-prep-224127",
+  "id": "res-230302",
   "chamadas": [
     {
-      "nome": "m",
-      "caminho": "17841439724629419/media",
+      "nome": "tcross",
+      "caminho": "120251124634350207/insights",
       "params": {
-        "fields": "id,permalink,caption,timestamp",
-        "limit": "8"
+        "level": "adset",
+        "date_preset": "maximum",
+        "fields": "adset_name,spend,impressions,reach,actions,cost_per_action_type"
       }
     },
     {
-      "nome": "maua",
-      "caminho": "search",
+      "nome": "jetta",
+      "caminho": "120251074034160207/insights",
       "params": {
-        "type": "adgeolocation",
-        "location_types": "[\"city\"]",
-        "q": "Mauá da Serra",
-        "country_code": "BR"
+        "level": "adset",
+        "date_preset": "maximum",
+        "fields": "adset_name,spend,impressions,reach,actions,cost_per_action_type"
       }
     },
     {
-      "nome": "conta",
-      "caminho": "act_2492793277580773",
+      "nome": "polo",
+      "caminho": "120251124727530207/insights",
       "params": {
-        "fields": "amount_spent,spend_cap,funding_source_details{display_string}"
+        "level": "adset",
+        "date_preset": "maximum",
+        "fields": "adset_name,spend,impressions,reach,actions,cost_per_action_type"
       }
     },
     {
-      "nome": "mes",
-      "caminho": "act_2492793277580773/insights",
+      "nome": "tc_sets",
+      "caminho": "120251124634350207/adsets",
       "params": {
-        "time_range": "{\"since\":\"2026-11-01\",\"until\":\"2026-11-25\"}",
-        "fields": "spend"
+        "fields": "name,effective_status,lifetime_budget,budget_remaining,issues_info"
+      }
+    },
+    {
+      "nome": "tc_ads",
+      "caminho": "120251124634350207/ads",
+      "params": {
+        "fields": "name,effective_status,ad_review_feedback,issues_info"
       }
     }
   ]
