@@ -1,20 +1,105 @@
 {
-  "id": "barbosa-res-092734",
+  "id": "res27-081631",
   "chamadas": [
     {
-      "nome": "i",
-      "caminho": "120257816676650011/insights",
+      "nome": "Fecha Mês",
+      "caminho": "120251135085800207/insights",
       "params": {
-        "level": "adset",
         "date_preset": "maximum",
-        "fields": "adset_name,spend,reach,impressions,frequency,cpm,actions"
+        "fields": "spend,reach,actions,cost_per_action_type"
       }
     },
     {
-      "nome": "ig",
-      "caminho": "17841474935700646",
+      "nome": "T-Cross",
+      "caminho": "120251124634350207/insights",
       "params": {
-        "fields": "followers_count,media_count"
+        "date_preset": "maximum",
+        "fields": "spend,reach,actions,cost_per_action_type"
+      }
+    },
+    {
+      "nome": "Jetta",
+      "caminho": "120251074034160207/insights",
+      "params": {
+        "date_preset": "maximum",
+        "fields": "spend,reach,actions,cost_per_action_type"
+      }
+    },
+    {
+      "nome": "Carrossel 1",
+      "caminho": "120251135242630207/insights",
+      "params": {
+        "date_preset": "maximum",
+        "fields": "spend,reach,actions,cost_per_action_type"
+      }
+    },
+    {
+      "nome": "Carrossel 2",
+      "caminho": "120251135248470207/insights",
+      "params": {
+        "date_preset": "maximum",
+        "fields": "spend,reach,actions,cost_per_action_type"
+      }
+    },
+    {
+      "nome": "Fecha Mês_d",
+      "caminho": "120251135085800207/insights",
+      "params": {
+        "time_range": "{\"since\":\"2026-11-25\",\"until\":\"2026-11-27\"}",
+        "time_increment": "1",
+        "fields": "spend,actions"
+      }
+    },
+    {
+      "nome": "T-Cross_d",
+      "caminho": "120251124634350207/insights",
+      "params": {
+        "time_range": "{\"since\":\"2026-11-25\",\"until\":\"2026-11-27\"}",
+        "time_increment": "1",
+        "fields": "spend,actions"
+      }
+    },
+    {
+      "nome": "Jetta_d",
+      "caminho": "120251074034160207/insights",
+      "params": {
+        "time_range": "{\"since\":\"2026-11-25\",\"until\":\"2026-11-27\"}",
+        "time_increment": "1",
+        "fields": "spend,actions"
+      }
+    },
+    {
+      "nome": "Carrossel 1_d",
+      "caminho": "120251135242630207/insights",
+      "params": {
+        "time_range": "{\"since\":\"2026-11-25\",\"until\":\"2026-11-27\"}",
+        "time_increment": "1",
+        "fields": "spend,actions"
+      }
+    },
+    {
+      "nome": "Carrossel 2_d",
+      "caminho": "120251135248470207/insights",
+      "params": {
+        "time_range": "{\"since\":\"2026-11-25\",\"until\":\"2026-11-27\"}",
+        "time_increment": "1",
+        "fields": "spend,actions"
+      }
+    },
+    {
+      "nome": "conta7",
+      "caminho": "act_2492793277580773/insights",
+      "params": {
+        "time_range": "{\"since\":\"2026-11-20\",\"until\":\"2026-11-27\"}",
+        "time_increment": "1",
+        "fields": "spend,actions"
+      }
+    },
+    {
+      "nome": "saldo",
+      "caminho": "act_2492793277580773",
+      "params": {
+        "fields": "funding_source_details{display_string}"
       }
     }
   ]
