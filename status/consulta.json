@@ -1,96 +1,60 @@
 {
-  "id": "res27-081631",
+  "id": "sab-100106",
   "chamadas": [
     {
-      "nome": "Fecha Mês",
-      "caminho": "120251135085800207/insights",
+      "nome": "Polo antigo",
+      "caminho": "120250228414240207",
       "params": {
-        "date_preset": "maximum",
-        "fields": "spend,reach,actions,cost_per_action_type"
+        "fields": "effective_status,insights.date_preset(maximum){spend,actions,cost_per_action_type}"
+      }
+    },
+    {
+      "nome": "Civic antigo",
+      "caminho": "120250228026120207",
+      "params": {
+        "fields": "effective_status,insights.date_preset(maximum){spend,actions,cost_per_action_type}"
+      }
+    },
+    {
+      "nome": "Fecha Mês",
+      "caminho": "120251135085800207",
+      "params": {
+        "fields": "effective_status,insights.date_preset(maximum){spend,actions,cost_per_action_type}"
       }
     },
     {
       "nome": "T-Cross",
-      "caminho": "120251124634350207/insights",
+      "caminho": "120251124634350207",
       "params": {
-        "date_preset": "maximum",
-        "fields": "spend,reach,actions,cost_per_action_type"
+        "fields": "effective_status,insights.date_preset(maximum){spend,actions,cost_per_action_type}"
       }
     },
     {
       "nome": "Jetta",
-      "caminho": "120251074034160207/insights",
+      "caminho": "120251074034160207",
       "params": {
-        "date_preset": "maximum",
-        "fields": "spend,reach,actions,cost_per_action_type"
+        "fields": "effective_status,insights.date_preset(maximum){spend,actions,cost_per_action_type}"
       }
     },
     {
       "nome": "Carrossel 1",
-      "caminho": "120251135242630207/insights",
+      "caminho": "120251135242630207",
       "params": {
-        "date_preset": "maximum",
-        "fields": "spend,reach,actions,cost_per_action_type"
+        "fields": "effective_status,insights.date_preset(maximum){spend,actions,cost_per_action_type}"
       }
     },
     {
       "nome": "Carrossel 2",
-      "caminho": "120251135248470207/insights",
+      "caminho": "120251135248470207",
       "params": {
-        "date_preset": "maximum",
-        "fields": "spend,reach,actions,cost_per_action_type"
+        "fields": "effective_status,insights.date_preset(maximum){spend,actions,cost_per_action_type}"
       }
     },
     {
-      "nome": "Fecha Mês_d",
-      "caminho": "120251135085800207/insights",
-      "params": {
-        "time_range": "{\"since\":\"2026-11-25\",\"until\":\"2026-11-27\"}",
-        "time_increment": "1",
-        "fields": "spend,actions"
-      }
-    },
-    {
-      "nome": "T-Cross_d",
-      "caminho": "120251124634350207/insights",
-      "params": {
-        "time_range": "{\"since\":\"2026-11-25\",\"until\":\"2026-11-27\"}",
-        "time_increment": "1",
-        "fields": "spend,actions"
-      }
-    },
-    {
-      "nome": "Jetta_d",
-      "caminho": "120251074034160207/insights",
-      "params": {
-        "time_range": "{\"since\":\"2026-11-25\",\"until\":\"2026-11-27\"}",
-        "time_increment": "1",
-        "fields": "spend,actions"
-      }
-    },
-    {
-      "nome": "Carrossel 1_d",
-      "caminho": "120251135242630207/insights",
-      "params": {
-        "time_range": "{\"since\":\"2026-11-25\",\"until\":\"2026-11-27\"}",
-        "time_increment": "1",
-        "fields": "spend,actions"
-      }
-    },
-    {
-      "nome": "Carrossel 2_d",
-      "caminho": "120251135248470207/insights",
-      "params": {
-        "time_range": "{\"since\":\"2026-11-25\",\"until\":\"2026-11-27\"}",
-        "time_increment": "1",
-        "fields": "spend,actions"
-      }
-    },
-    {
-      "nome": "conta7",
+      "nome": "semana",
       "caminho": "act_2492793277580773/insights",
       "params": {
-        "time_range": "{\"since\":\"2026-11-20\",\"until\":\"2026-11-27\"}",
+        "time_range": "{\"since\":\"2026-11-25\",\"until\":\"2026-11-28\"}",
         "time_increment": "1",
         "fields": "spend,actions"
       }
