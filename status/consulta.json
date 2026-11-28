@@ -1,37 +1,9 @@
 {
-  "id": "sab-100106",
+  "id": "sab2-144922",
   "chamadas": [
-    {
-      "nome": "Polo antigo",
-      "caminho": "120250228414240207",
-      "params": {
-        "fields": "effective_status,insights.date_preset(maximum){spend,actions,cost_per_action_type}"
-      }
-    },
-    {
-      "nome": "Civic antigo",
-      "caminho": "120250228026120207",
-      "params": {
-        "fields": "effective_status,insights.date_preset(maximum){spend,actions,cost_per_action_type}"
-      }
-    },
     {
       "nome": "Fecha Mês",
       "caminho": "120251135085800207",
-      "params": {
-        "fields": "effective_status,insights.date_preset(maximum){spend,actions,cost_per_action_type}"
-      }
-    },
-    {
-      "nome": "T-Cross",
-      "caminho": "120251124634350207",
-      "params": {
-        "fields": "effective_status,insights.date_preset(maximum){spend,actions,cost_per_action_type}"
-      }
-    },
-    {
-      "nome": "Jetta",
-      "caminho": "120251074034160207",
       "params": {
         "fields": "effective_status,insights.date_preset(maximum){spend,actions,cost_per_action_type}"
       }
@@ -46,6 +18,20 @@
     {
       "nome": "Carrossel 2",
       "caminho": "120251135248470207",
+      "params": {
+        "fields": "effective_status,insights.date_preset(maximum){spend,actions,cost_per_action_type}"
+      }
+    },
+    {
+      "nome": "T-Cross",
+      "caminho": "120251124634350207",
+      "params": {
+        "fields": "effective_status,insights.date_preset(maximum){spend,actions,cost_per_action_type}"
+      }
+    },
+    {
+      "nome": "Jetta",
+      "caminho": "120251074034160207",
       "params": {
         "fields": "effective_status,insights.date_preset(maximum){spend,actions,cost_per_action_type}"
       }
